@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+      <div class="row">
+
+        {% for k in site.data.kaupungit %}
+        <div class="col-12 col-sx-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+
+          <div class="col-content">
+            <h2>{{ k.kaupunki }}</h2>
+            {% if k.status == 'active' %}
+              <p class="hs_status">Aktiivinen</p>
+            {% elsif k.status == 'building' %}
+              <p class="hs_status">Perusteilla</p>
+            {% elsif k.status == 'idea' %}
+              <p class="hs_status">Esitetty ajatus perustamisesta</p>
+            {% endif %}
+            {% if k.url %}<p><a href="{{ k.url }}">{{ k.url }}</a></p>{% endif %}
+            <p>{{ k.txt }}</p>
+          </div>
+        </div>
+       {% endfor %}
+
+        <div class="col-sx-12 col-sm-12 col-md-12 col-lg-12 col-xl-8"> 
+          <div class="col-content">
+            <h2>Puuttuuko oma asuinpakkasi listalta?</h2>
+            <p>Kysy meiltä miten voimme auttaa uuden hacklabin perustamisessa! Esittäydy discoursessa, keskustele irkissä tai käytä somea – voimme auttaa viestin levittämisessä.</p>
+          </div>
+        </div>
+
+      </div>

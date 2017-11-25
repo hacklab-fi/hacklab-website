@@ -1,0 +1,86 @@
+---
+layout: default
+title: Etusivu
+lang: fi
+---
+
+
+
+
+
+      <div class="row">
+        <div class="col-12 col-sx-12 col-sm-12 col-md-8 col-lg-8 col-xl-8">
+          <div class="col-content">
+              {% if page.lang == 'fi' %}<h2>Kaupungit</h2>
+              {% else %}<h2>Cities</h2>{% endif %}
+
+              {% assign status_a = site.data.kaupungit | where:'status', 'active' %}
+              {% assign status_b = site.data.kaupungit | where:'status', 'building' %}
+
+              {% if page.lang == 'fi' %}<p class="hs_status">Aktiiviset</p>
+              {% else %}<p class="hs_status">Active</p>{% endif %}
+              {% for k in status_a %}
+              <div class="hs_list">
+                <span><a href="{{ k.url }}">{{ k.kaupunki }}</a></span>
+              </div>
+              {% endfor %}
+
+
+              {% if page.lang == 'fi' %}<p class="hs_status">Perusteilla</p>
+              {% else %}<p class="hs_status">Building</p>{% endif %}
+              {% for k in status_b %}
+              <div class="hs_list">
+                <span><a href="{{ k.url }}">{{ k.kaupunki }}</a></span>
+              </div>
+              {% endfor %}
+
+              <p>
+                <a class="btn btn-default" href="kaupungit.html" role="button">Lue lis&#xE4;&#xE4;</a>
+              </p>
+          </div>
+        </div>
+        <div class="clearfix">
+          <div class="pull-right-mdlgxl col-sx-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+            <div class="col-content col-feed">
+              <h2>Hacklabeissa tapahtuu</h2>
+              {% include feed.html %}
+            </div>
+          </div>
+
+          {% assign all_same_posts_refs = site.posts | group_by: "ref" %}
+
+          {% for this_ref in all_same_posts_refs %}
+
+            {% assign post_fi=this_ref.items | where_exp:"items", "items.lang == 'fi'" | first %}
+            {% assign post_en=this_ref.items | where_exp:"items", "items.lang == 'en'" | first %}
+
+            {% if post_fi and page.lang == 'fi' %}
+              <div class="col-sx-12 col-sm-12   col-md-8 col-lg-8 col-xl-8">
+                <div class="col-content">
+                  <h2><a href="{{ post_fi.url | relative_url }}">{{ post_fi.title | escape }}</a></h2>
+                  <span class="post-meta">{{ post_fi.date | date: "%-d %B %Y" }}</span>
+                  {% if post_en %}<a href="{{ post_en.url | relative_url }}" role="button">In English</a>{% endif %}
+                  {{ post_fi.excerpt }}
+                  <p>
+                    <a class="btn btn-default" href="{{ post_fi.url | relative_url }}" role="button">Lue lis&#xE4;&#xE4;</a>
+                  </p>
+                </div>
+              </div>
+            {% elsif post_en %}
+              <div class="col-sx-12 col-sm-12   col-md-8 col-lg-8 col-xl-8">
+                <div class="col-content">
+                  <h2><a href="{{ post_en.url | relative_url }}">{{ post_en.title | escape }}</a></h2>
+                  <span class="post-meta">{{ post_en.date | date: "%-d %B %Y" }}</span>
+                  {% if post_fi %}<a href="{{ post_fi.url | relative_url }}" role="button">Suomeksi</a>{% endif %}
+                  {{ post_en.excerpt }}
+                  <p>
+                    <a class="btn btn-default" href="{{ post_en.url | relative_url }}" role="button">Lue lis&#xE4;&#xE4;</a>
+                  </p>
+                </div>
+              </div>
+            {% endif %}
+          {% endfor %}
+
+
+        </div>
+      </div>

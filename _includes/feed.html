@@ -1,0 +1,5 @@
+{% assign latest = site.feed_aggregator | sort: 'date' | reverse %}
+
+{% for f in latest limit: 8 %}
+<p><span class="feed-city">{{f.author}}</span><span class="feed-datetime">{{f.date | date: "%Y-%m-%d" }}</span><br/><a href="{{ f.direct_url }}">{{ f.title }}</a></p>
+{% endfor %}

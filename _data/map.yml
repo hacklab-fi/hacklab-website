@@ -1,0 +1,10 @@
+# Leaflet maps options
+
+# center point
+lat: 63.0
+lon: 25.653
+
+# Mapbox token
+token: "pk.eyJ1IjoianNzbWsiLCJhIjoiY2ozMnR5OHUxMDAwajMybzlzOTV1bmFxOSJ9.mllU8iCxT3yY-GQVaA26tA"
+
+

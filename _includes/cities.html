@@ -1,0 +1,22 @@
+<div class="fullwidth" id="cities">
+  <div class="container">
+     <h2>{% if page.lang == 'fi' %}Kaupungit{% else %}Cities{% endif %}</h2>
+     {% assign status_a = site.data.kaupungit | where:'status', 'active' %}
+     {% assign status_b = site.data.kaupungit | where:'status', 'building' %}
+     <p class="hs_status">{% if page.lang == 'fi' %}Aktiiviset{% else %}Active{% endif %}</p>
+     {% for k in status_a %}
+     <div class="hs_list">
+       <span><a href="{{ k.url }}">{{ k.kaupunki }}</a></span>
+     </div>
+     {% endfor %}
+     <p class="hs_status">{% if page.lang == 'fi' %}Perusteilla{% else %}Building{% endif %}</p>
+     {% for k in status_b %}
+     <div class="hs_list">
+       <span><a href="{{ k.url }}">{{ k.kaupunki }}</a></span>
+     </div>
+     {% endfor %}
+     <p>
+       <a class="btn btn-default btn-transparent" href="kaupungit.html" role="button">{% if page.lang == 'fi' %}Lue lis&#xE4;&#xE4;{% else %}Read more{% endif %}</a>
+     </p>
+  </div>
+</div>

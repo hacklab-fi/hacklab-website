@@ -1,0 +1,208 @@
+body {
+	padding-top: 50px;
+	background-color:#11a8a3;	/*#66d1c5;
+	background-image: url('bg4.png');*/
+	background-image: url('images/bg7.png');
+	color: #2d5d58;
+}
+a {
+	color: #2d5d58;
+}
+
+
+.container{
+	width: 100%;
+}
+
+.main-container{
+	padding: 50px 50px 50px 50px;
+	background-color: #66d1c5;
+
+}
+
+
+
+.fullwidth {
+	background-color:	#FFFFFF;
+    margin: 0px auto;
+    padding: 30px;
+}
+.map-fullwidth {
+	background-color:	#2d5d58;
+	color: #ffffff;
+}
+
+
+
+
+
+
+/* footer */
+
+#footer{
+	padding: 5em 3em;
+	background-color:	#FFFFFF;
+	margin-top: 0px;
+}
+#footer .container{
+	max-width: 1200px;
+	margin: auto;
+}
+#footer .text-info{
+}
+
+#footerlogo{
+	float: right;
+	margin: 0px 15px 0px 30px;
+	max-width: 50%;
+	min-width: 200px;
+}
+
+
+/* Map */
+
+
+#mapid {
+	height: 400px;
+	max-width: 90%;
+	margin: 0px auto;
+}
+
+
+/* Content */
+
+.col-content {
+	background-color:	#FFFFFF;
+	margin-top: 20px;
+	padding: 20px;
+	width:100%;
+	display:inline-block; /* !! */
+}
+
+.starter-template {
+	padding: 40px 15px;
+	text-align: center;
+}
+
+
+/* yläotsikko */
+
+.jumbotron {
+	background-image: linear-gradient(to bottom right,#11a8a320,#00000070), url('images/header1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+	color: #FFFFFF;
+	border-bottom: 4px solid #FFFFFF;
+	font-family: 'Noto Sans', sans-serif;
+	padding-top: 200px;
+	height: 400px;
+	margin-bottom: 0px;
+}
+
+
+.jumbotron .content {
+	
+}
+
+.navbar-nav {
+	float:none; /* ei vyöry otsikon yli */
+}
+
+.underline {
+	border-bottom: 3px solid #FFFFFF;
+	width: 100%;
+	display: block;
+}
+
+
+
+
+/* rss feed */
+
+.feed-city {
+    font-size: 120%;
+}
+
+.feed-datetime {
+	padding-right: 20px;
+	float:right;
+	color: #A0A0A0;
+}
+
+
+
+
+
+/* Kaupungit */
+
+.col-cities {
+	background: #F1F1F1;
+	color: black;
+}
+
+
+#cities{
+    background-image: url('images/bg6.png');
+    color: white;
+}
+#cities a{
+    color: white;
+    font-size: 130%;
+}
+
+/* lista kaupungeista */
+
+.hs_list{
+	display:inline-block;
+	float:left;
+	margin-left: 20px;
+	margin-bottom: 10px;
+}
+
+.hs_status{
+	display:block;
+	clear:both;
+}
+
+
+/* Posts */
+.post-meta {
+	color: gray;
+	font-size: 10pt;
+	margin: 10px;
+	display: inline-block;
+}
+.post-excrept-image {
+    max-width: 100%;
+    float: right;
+    width: 300px;
+    padding: 20px;
+}
+.post-image {
+    max-width: 100%;
+    max-height: 400px;
+    display: block;
+    margin: 20px auto;
+}
+
+.post-content {
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+
+
+/* extend standard elements */
+.btn {
+	clear: left;
+	float: left;
+}
+
+.btn-transparent {
+	background-color: transparent;
+}
+
+/* Translation style */
+.translation-en {
+    font-style: italic;
+}

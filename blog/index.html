@@ -1,0 +1,28 @@
+---
+# Basic settings for main page
+
+layout: default
+title: Hackerspaces and Makerspaces in Finland
+lang: fi
+ref: index
+infotxt: n
+cities: n
+map: n
+header: y
+---
+
+{% for this_post in site.posts %}
+<div class="row">
+  <div class="col-12 col-sx-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 col-xl-8 col-xl-offset-2">
+    <div class="col-content">
+       <img src="/posts_images/{{ this_post.image }}" alt="Kuvituskuva" class="post-excrept-image"/>
+       <h2><a href="{{ this_post.url | relative_url }}">{% if page.lang == 'en' and this_post.translation_en %}{{ this_post.translation_title_en }}{% else %}{{ this_post.title | escape }}{% endif %}</a></h2>
+       <span class="post-meta">{{ this_post.date | date: "%-d %B %Y" }}</span>
+       {% if page.lang == 'en' and this_post.translation_en %}<p>{{ this_post.translation_en | strip_html | truncatewords: 50}} ...</p>{% else %}{{ this_post.excerpt}}{%if this_post.content != this_post.excerpt %} ...{% endif %}{% endif %}
+       <p>
+         <a class="btn btn-default" href="{{ this_post.url | relative_url }}" role="button">{% if page.lang == 'fi' %}Lue lis&#xE4;&#xE4;{% else %}Read more{% endif %}</a>
+       </p>
+    </div>
+  </div>
+</div>
+{% endfor %}
