@@ -1,5 +1,5 @@
 ---
-og_image_prefix: /posts_images/
+og_image_prefix: posts_images/
 layout: default
 header: n
 ---
@@ -8,7 +8,7 @@ header: n
           <div class="col-sx-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
            <div class="post-content">
              <div class="col-content">
-                <a href="/posts_images/{{ page.image }}""><img src="/posts_images/{{ page.image }}" alt="Kuvituskuva" class="post-image"/></a>
+                <a href="posts_images/{{ page.image }}""><img src="posts_images/{{ page.image }}" alt="Kuvituskuva" class="post-image"/></a>
                 <h2>{{ page.title }}</h2>
                 <span class="post-meta">{{ post.date | date: date_to_string }}</span>
                 {{ content }}
