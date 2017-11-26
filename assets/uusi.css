@@ -161,6 +161,10 @@ a {
     font-size: 130%;
 }
 
+.hs_status{
+	display:block;
+}
+
 /* lista kaupungeista */
 
 .hs_list{
@@ -170,10 +174,10 @@ a {
 	margin-bottom: 10px;
 }
 
-.hs_status{
+.hs_status_listing{
 	display:block;
+	clear: both;
 }
-
 
 /* Posts */
 .post-meta {
