@@ -27,8 +27,9 @@ a {
     padding: 30px;
 }
 .map-fullwidth {
+    color: #61a19a;
 	background-color:	#2d5d58;
-	color: #ffffff;
+	padding: 30pt 10%;
 }
 
 
@@ -63,8 +64,6 @@ a {
 
 #mapid {
 	height: 400px;
-	max-width: 90%;
-	margin: 0px auto;
 }
 
 

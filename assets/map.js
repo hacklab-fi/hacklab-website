@@ -4,6 +4,12 @@
 var mymap = L.map('mapid').setView([{{ site.data.map.lat }}, {{ site.data.map.lon }}], 5);
 
 
+// pakota käyttäjä ensin klikkaamaan karttaa ennen kuin skrollaus alkaa
+mymap.scrollWheelZoom.disable();
+this.mymap.on('click', () => { this.mymap.scrollWheelZoom.enable();});
+this.mymap.on('mouseout', () => { this.mymap.scrollWheelZoom.disable();});
+
+
 L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={{ site.data.map.token }}", {
     attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
     maxZoom: 18,
