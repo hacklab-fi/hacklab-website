@@ -21,11 +21,12 @@ pagepath {{ page.path }}
 
     {% if page.title %}<meta property="og:title" content="{{ page.title }}" />{% endif %}
     {% if page.image %}<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/{{ layout.og_image_prefix }}{{ page.image }}" />
-    {% else %}<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/hacklab_fi_logo.png" />{% endif %}
+    {% else %}<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/hacklab_fi_logo_square.png" />{% endif %}
     <meta property="og:type" content="website"/>
     {% if page.lang == 'fi'%}<meta property="og:locale" content="fi_FI" />{% endif %}
     {% if page.lang == 'en'%}<meta property="og:locale" content="en_US" />{% endif %}
-    {% if page.excerpt %}<meta property="og:description" content="{{ page.excerpt | strip_html }}" />{% endif %}
+    {% if page.excerpt %}<meta property="og:description" content="{{ page.excerpt | strip_html }}" />
+    {% else %}<meta property="og:description" content="hacklab.fi – Makerspaces in Finland" />{% endif %}
 
 
 
