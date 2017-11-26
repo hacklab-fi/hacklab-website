@@ -1,24 +1,28 @@
 ---
 layout: default
+title: kaupungit
+lang: fi
 ---
 
       <div class="row">
 
         {% for k in site.data.kaupungit %}
         <div class="col-12 col-sx-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-
-          <div class="col-content">
-            <h2>{{ k.kaupunki }}</h2>
-            {% if k.status == 'active' %}
-              <p class="hs_status">Aktiivinen</p>
-            {% elsif k.status == 'building' %}
-              <p class="hs_status">Perusteilla</p>
-            {% elsif k.status == 'idea' %}
-              <p class="hs_status">Esitetty ajatus perustamisesta</p>
-            {% endif %}
-            {% if k.osoite %}<p>{% if k.osm_node %}<a href="http://www.openstreetmap.org/node/{{ k.osm_node }}">{% endif %}{{ k.osoite }}{% if k.osm_node %}</a>{% endif %}{% endif %}
-            {% if k.url %}<p><a href="{{ k.url }}">{{ k.url }}</a></p>{% endif %}
-            <p>{{ k.txt }}</p>
+          <div class="col-cities">
+            <div class="col-content">
+              <h2>{{ k.kaupunki }}</h2>
+              {% if k.logo %}<img src="{{ site.url }}{{ site.baseurl }}/assets/images/logos/{{ k.logo }}" alt="{{ k.kaupunki }} logo" class="city_logo hidden-xs"/>{% endif %}
+              {% if k.status == 'active' %}
+                <p class="hs_status">Aktiivinen</p>
+              {% elsif k.status == 'building' %}
+                <p class="hs_status">Perusteilla</p>
+              {% elsif k.status == 'idea' %}
+                <p class="hs_status">Esitetty ajatus perustamisesta</p>
+              {% endif %}
+              {% if k.osoite %}<p>{% if k.osm_node %}<a href="http://www.openstreetmap.org/node/{{ k.osm_node }}">{% endif %}{{ k.osoite }}{% if k.osm_node %}</a>{% endif %}{% endif   %}
+              {% if k.url %}<p><a href="{{ k.url }}">{{ k.url }}</a></p>{% endif %}
+              <p>{{ k.txt }}</p>
+            </div>
           </div>
         </div>
        {% endfor %}

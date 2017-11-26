@@ -139,10 +139,18 @@ a {
 /* Kaupungit */
 
 .col-cities {
-	background: #F1F1F1;
-	color: black;
+	width: 80%;
+	margin: 0px auto;
 }
 
+
+
+/*col-12 col-sx-12 col-sm-12 col-md-12 col-lg-12 col-xl-12*/
+.city_logo {
+	float: right;
+	max-height: 200px;
+	min-width: 100px;
+}
 
 #cities{
     background-image: url('images/bg6.png');
@@ -164,7 +172,6 @@ a {
 
 .hs_status{
 	display:block;
-	clear:both;
 }
 
 

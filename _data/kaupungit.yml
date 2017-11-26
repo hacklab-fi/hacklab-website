@@ -15,6 +15,7 @@
   status: active
   txt: "Helsinki Hacklab, Suomen ensimmäinen hackerpace, perustettu 2010. Työtilat Pitskussa lyhyen kävelymatkan päässä joko Mäkkylän tai Pitäjänmäen asemilta. Avoimet ovet aina tiistaisin klo 17 alkaen."
   pin: "helsinki_pin.png"
+  logo: "helsinki.png"
 
 - kaupunki: Tampere Hacklab
   lat: 61.48137
@@ -25,6 +26,7 @@
   status: active
   txt: "Tampere Hacklab, jäsenistöltään Suomen suurin hacklab. Sijaitsee Nekalassa."
   pin: "tampere_pin.png"
+  logo: "tampere.png"
 
 - kaupunki: Vaasa Hacklab
   lat: 63.1095933
@@ -35,6 +37,7 @@
   status: active
   txt: "Vaasan oma hacklab. Tilat löytyvät Vanhasta saippuatehtaasta."
   pin: "vaasa_pin.png"
+  logo: "vaasa.png"
 
 - kaupunki: Turku Hacklab
   lat: 60.4826874
@@ -45,6 +48,7 @@
   status: active
   txt: "Turun Hacklab on perustettu 2011 ja työtilat sijaitsevat Orikedolla. Avoimet ovet joka tiistai klo 18 alkaen."
   pin: "turku_pin.png"
+  logo: "turku.png"
 
 - kaupunki: Oulu Tarlab
   lat: 65.02556
@@ -55,6 +59,7 @@
   status: active
   txt: "Suomen pohjoisin hacklab."
   pin: "oulu_pin.png"
+  logo: "oulu.png"
 
 - kaupunki: Hacklab Jyväskylä
   lat: 62.2395419
@@ -65,6 +70,7 @@
   status: active
   txt: "Jyväskylän hacklab toimii Voionmaalla, rakennuksen kellarikerroksessa. Avoimet ovet tiistaisin ja lauantaisin. Elektroniikkaa, puutöitä ja ryhmätyöskentelyä."
   pin: "jyvaskyla_pin.png"
+  logo: "jyvaskyla.png"
 
 - kaupunki: Hacklab Kuopio
   lat: 62.8936742
@@ -75,6 +81,7 @@
   osm_node: 4380469615
   txt: "Kuopion Hacklab"
   pin: "kuopio_pin.png"
+  logo: "kuopio.png"
 
 - kaupunki: Tech Club Joensuu
   lat: 62.60000
@@ -85,6 +92,7 @@
   status: active
   txt: "Joensuun edustus hacklab.fi:ssa. Sijaitsee veturitalleilla. Ovet avoinna keskiviikkoisin klo 17-20."
   pin: "joensuu_pin.png"
+  logo: "joensuu.jpg"
 
 - kaupunki: Hacklab Mikkeli
   lat: 61.6933473
@@ -95,6 +103,7 @@
   status: active
   txt: "Mikkelin Hacklab"
   pin: "mikkeli_pin.png"
+  logo: "mikkeli.png"
 
 - kaupunki: Hacklab Pori
   lat: 61.4877445
@@ -104,6 +113,7 @@
   status: active
   txt: "Porin seudun hacklab toimii Yhteisökeskuksessa."
   pin: "pori_pin.png"
+  logo: "pori.png"
 
 - kaupunki: Virrat Hacklab
   lat: 62.23843
@@ -113,6 +123,7 @@
   status: active
   txt: Yhdistys rekisteröity, tilat osoitteessa Sipiläntie 1.
   pin: "virrat_pin.png"
+  logo: "virrat.png"
 
 - kaupunki: Lahti Hacklab
   lat: 60.98852
@@ -122,6 +133,7 @@
   status: active
   txt: "Työtilat järjestyneet, toiminta käynnistymässä."
   pin: "lahti_pin.png"
+  logo: "lahti.png"
 
 - kaupunki: Kouvola Hacklab
   lat: 60.87289
@@ -131,6 +143,7 @@
   status: active
   txt: Kaakkois-Suomen ensimmäinen yhteisöllinen työtila
   pin: "kouvola_pin.png"
+  logo: "kouvola.png"
 
 
 # rakenteilla olevat
@@ -143,6 +156,7 @@
   status: building
   txt: "Tule mukaan suunnittelemaan ja toteuttamaan uusi hacklab Seinäjoelle."
   pin: "seinajoki_pin.png"
+  logo: "seinajoki.png"
 
 
 # Suunnitteluasteella (ei sijaintia)
