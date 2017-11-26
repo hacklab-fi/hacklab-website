@@ -1,8 +1,6 @@
 
-description: > # this means to ignore newlines until "baseurl:"
+description: >
   Hackerspaces in Finland
-baseurl: "hacklab-website"
-url: "" 
 github_username: hacklab-fi
 
 markdown: kramdown
