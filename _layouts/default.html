@@ -20,7 +20,8 @@ pagepath {{ page.path }}
 
 
     {% if page.title %}<meta property="og:title" content="{{ page.title }}" />{% endif %}
-    {% if page.image %}<meta property="og:image" content="{{ layout.og_image_prefix }}{{ page.image }}" />{% endif %}
+    {% if page.image %}<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/{{ layout.og_image_prefix }}{{ page.image }}" />
+    {% else %}<meta property="og:image" content="{{ site.url }}{{ site.baseurl }}/assets/images/hacklab_fi_logo.png" />{% endif %}
     <meta property="og:type" content="website"/>
     {% if page.lang == 'fi'%}<meta property="og:locale" content="fi_FI" />{% endif %}
     {% if page.lang == 'en'%}<meta property="og:locale" content="en_US" />{% endif %}
