@@ -14,15 +14,17 @@ Hacklab sekä hackerspace tarkoittavat avointa yhteisön ylläpitämää työtil
 
 # Tarkoitettu kaikille
 
-Hacklabit ovat harrastajien ylläpitämiä työtiloja, ja kenellä tahansa on mahdollisuus liittyä hacklabin jäseneksi. Tärkeä osa toimintaa on osaamisen jakaminen ja omien taitojen esille tuominen. Yhteisön jäsenenä pääset sekä oppimaan että opettamaan muita. Kädentaidot, tekniikka, luovan tekeminen, suunnittelu, ohjelmistojen käyttö ja muu osaaminen kohtaavat työtilassa eri tavoin. Oman rakentelun lisäksi voit kehittää myös työtilaa ja osallistua yhteisiin projekteihin. Hacklab-toiminta on avointa niin työikäisille, opiskelijoille kuin eläkeläisillekin. Junireille ja kouluikäisille voi olla myös tarjolla osallistumisen tapoja paikallisessa hacklabissa.
+Hacklabit ovat harrastajien ylläpitämiä työtiloja, ja kenellä tahansa on mahdollisuus liittyä hacklabin jäseneksi. Tärkeä osa toimintaa on osaamisen jakaminen ja toisten auttaminen. Yhteisön jäsenet pääsevät oppimaan toisiltaan uusia taitoja sekä opettamaan omia taitojaan muille. Hacklabissa kohtaavat kädentaidot, tekniikka, luova tekeminen, suunnittelu ja kokeilu. Oman rakentelun lisäksi voit kehittää myös työtilaa ja osallistua yhteisiin projekteihin.
+
+Hacklab-toiminta on avointa kaikille, mutta edellyttää joskus jonkin verran itsenäiseen työskentelyyn kykenemistä. Junireille ja kouluikäisille voi olla erikseen tarjolla toimintaa paikallisessa hacklabissa.
 
 ## Itsenäinen yhdistystoiminta
 
-Suomen hacklabien perustama hacklab.fi on itsenäisten ja riippumattomien työtilojen yhteinen verkosto. Mukana olevat hacklabit ovat jokainen omanlaisensa paikallinen ryhmä ja pääosin oma rekisteröitynyt yhdistyksensä. Hacklabit eivät ole osa mitään oppilaitosta, eivät toimi osana oppilaskuntaa tai ole muutoinkaan opiskelijajärjestöjä. Yhteistyöverkosto hacklab.fi kokoaa yhteen työtilat, joihin ovat tervetulleita kaikki.
+Suomen hacklabien perustama hacklab.fi on itsenäisten ja riippumattomien työtilojen yhteinen verkosto. Mukana olevat hacklabit ovat jokainen omanlaisensa paikallinen ryhmä ja pääosin oma rekisteröitynyt yhdistyksensä. Hacklabit eivät ole osa mitään oppilaitosta tai ole muutoinkaan opiskelijajärjestöjä. Verkosto kokoaa yhteen hacklab-työtilat, jotka pitävät ovensa avoinna kaikille.
 
 
 
-### Radioamatööritoiminta
+### Radioamatöörit
 
 Osassa hacklabeista on mukana radioamatöörejä, tai yhdistyksillä on olemassaoleva tai suunnitteilla oleva asema.
 

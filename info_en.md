@@ -12,13 +12,13 @@ Both Hacklab and hackerspace mean an open, community organized workspace. These 
 
 # Open for anyone
 
-Hacklabit ovat harrastajien ylläpitämiä työtiloja, ja kenellä tahansa on mahdollisuus liittyä hacklabin jäseneksi. Tärkeä osa toimintaa on osaamisen jakaminen ja omien taitojen esille tuominen. Yhteisön jäsenenä pääset sekä oppimaan että opettamaan muita. Kädentaidot, tekniikka, luovan tekeminen, suunnittelu, ohjelmistojen käyttö ja muu osaaminen kohtaavat työtilassa eri tavoin. Oman rakentelun lisäksi voit kehittää myös työtilaa ja osallistua yhteisiin projekteihin. Hacklab-toiminta on avointa niin työikäisille, opiskelijoille kuin eläkeläisillekin. Junireille ja kouluikäisille voi olla myös tarjolla osallistumisen tapoja paikallisessa hacklabissa.
+Hacklabs are hobbyist operated workspaces, and anyone has a possibility to join as a member. Important part of activity is sharing knowledge and helping each others. Members of hacklabs can learn from their peers and pass their skills forward to others. Hacklab brings together craft skills, technology, creative working, designing and experimenting. Besides your own building, you can help developing the workspace and participate in shared projects.
 
+Hacklab is open for everyone, but sometimes requires some level of independent working skills. There might be suitable events for junior members and school age kids in your local hacklab.
 
 ## Independent organizations
 
-Suomen hacklabien perustama hacklab.fi on itsenäisten ja riippumattomien työtilojen yhteinen verkosto. Mukana olevat hacklabit ovat jokainen omanlaisensa paikallinen ryhmä ja pääosin oma rekisteröitynyt yhdistyksensä. Hacklabit eivät ole osa mitään oppilaitosta, eivät toimi osana oppilaskuntaa tai ole muutoinkaan opiskelijajärjestöjä. Yhteistyöverkosto hacklab.fi kokoaa yhteen työtilat, joihin ovat tervetulleita kaikki.
-
+Co-op network hacklab.fi is founded by independent and self sustained hackerspace workspaces in Finland. Hacklabs in our network are local and distinct groups that are mainly run by registered associations. Hacklabs are not part of any education institution or student organizations. The network gathers together workspaces, that open their doors for anyone.
 
 
 ### Radio amateurs
