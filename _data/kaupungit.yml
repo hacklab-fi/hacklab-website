@@ -11,6 +11,7 @@
   lon: 24.85194
   osoite: Takkatie 18, takaovi
   url: http://helsinki.hacklab.fi/
+  osm_node: 788550155
   status: active
   txt: "Helsinki Hacklab, Suomen ensimmäinen hackerpace, perustettu 2010. Työtilat Pitskussa lyhyen kävelymatkan päässä joko Mäkkylän tai Pitäjänmäen asemilta. Avoimet ovet aina tiistaisin klo 17 alkaen."
   pin: "helsinki_pin.png"
@@ -20,6 +21,7 @@
   lon: 23.78915
   osoite: Ahlmanintie 56
   url: http://tampere.hacklab.fi/
+  osm_node: 3752512170
   status: active
   txt: "Tampere Hacklab, jäsenistöltään Suomen suurin hacklab. Sijaitsee Nekalassa."
   pin: "tampere_pin.png"
@@ -29,6 +31,7 @@
   lon: 21.5855139
   osoite: Salmikatu 1, Vanha saippuatehdas
   url: http://vaasa.hacklab.fi/
+  osm_node: 4160997147
   status: active
   txt: "Vaasan oma hacklab. Tilat löytyvät Vanhasta saippuatehtaasta."
   pin: "vaasa_pin.png"
@@ -38,6 +41,7 @@
   lon: 22.3115418
   osoite: Orikedonkatu 18, toinen kerros
   url: http://turku.hacklab.fi/
+  osm_node: 3519065415
   status: active
   txt: "Turun Hacklab on perustettu 2011 ja työtilat sijaitsevat Orikedolla. Avoimet ovet joka tiistai klo 18 alkaen."
   pin: "turku_pin.png"
@@ -47,6 +51,7 @@
   lon: 25.48531
   osoite: Valtatie 67, takaovi
   url: http://oulu.hacklab.fi/
+  osm_node: 4161097329
   status: active
   txt: "Suomen pohjoisin hacklab."
   pin: "oulu_pin.png"
@@ -56,6 +61,7 @@
   lon: 25.7260400
   osoite: Keskikatu 18 A
   url: http://jyvaskyla.hacklab.fi/
+  osm_node: 3055729214
   status: active
   txt: "Jyväskylän hacklab toimii Voionmaalla, rakennuksen kellarikerroksessa. Avoimet ovet tiistaisin ja lauantaisin. Elektroniikkaa, puutöitä ja ryhmätyöskentelyä."
   pin: "jyvaskyla_pin.png"
@@ -66,6 +72,7 @@
   osoite: Kotkankallionkatu 3
   url: http://kuopio.hacklab.fi/
   status: active
+  osm_node: 4380469615
   txt: "Kuopion Hacklab"
   pin: "kuopio_pin.png"
 
@@ -74,6 +81,7 @@
   lon: 29.78359
   osoite: Sortavalankatu 2, ovi 4B
   url: http://tcj.fi/
+  osm_node: 4161097330
   status: active
   txt: "Joensuun edustus hacklab.fi:ssa. Sijaitsee veturitalleilla. Ovet avoinna keskiviikkoisin klo 17-20."
   pin: "joensuu_pin.png"
@@ -83,6 +91,7 @@
   lon: 27.2625445
   osoite: Yrjönkatu 19
   url: http://mikkeli.hacklab.fi/
+  osm_node: 3882978198
   status: active
   txt: "Mikkelin Hacklab"
   pin: "mikkeli_pin.png"
@@ -96,6 +105,33 @@
   txt: "Porin seudun hacklab toimii Yhteisökeskuksessa."
   pin: "pori_pin.png"
 
+- kaupunki: Virrat Hacklab
+  lat: 62.23843
+  lon: 23.76390
+  osoite: Sipiläntie 1, pohjakerros
+  url: http://virrat.hacklab.fi/
+  status: active
+  txt: Yhdistys rekisteröity, tilat osoitteessa Sipiläntie 1.
+  pin: "virrat_pin.png"
+
+- kaupunki: Lahti Hacklab
+  lat: 60.98852
+  lon: 25.66393
+  osoite: Sammonkatu 8 H (sisäänkäynti Kauppakadun puolelta)
+  url: http://lahti.hacklab.fi/
+  status: active
+  txt: "Työtilat järjestyneet, toiminta käynnistymässä."
+  pin: "lahti_pin.png"
+
+- kaupunki: Kouvola Hacklab
+  lat: 60.87289
+  lon: 26.69156
+  osoite: Savonkatu 23, kolmas kerros
+  url: http://hacklabkouvola.fi/
+  status: active
+  txt: Kaakkois-Suomen ensimmäinen yhteisöllinen työtila
+  pin: "kouvola_pin.png"
+
 
 # rakenteilla olevat
 
@@ -107,33 +143,6 @@
   status: building
   txt: "Tule mukaan suunnittelemaan ja toteuttamaan uusi hacklab Seinäjoelle."
   pin: "seinajoki_pin.png"
-
-- kaupunki: Virrat Hacklab
-  lat: 62.23843
-  lon: 23.76390
-  osoite: Sipiläntie 1, pohjakerros
-  url: http://virrat.hacklab.fi/
-  status: building
-  txt: Yhdistys rekisteröity, tilat osoitteessa Sipiläntie 1.
-  pin: "virrat_pin.png"
-
-- kaupunki: Lahti Hacklab
-  lat: 60.98852
-  lon: 25.66393
-  osoite: Sammonkatu 8 H (sisäänkäynti Kauppakadun puolelta)
-  url: http://lahti.hacklab.fi/
-  status: building
-  txt: "Työtilat järjestyneet, toiminta käynnistymässä."
-  pin: "lahti_pin.png"
-
-- kaupunki: Kouvola Hacklab
-  lat: 60.87289
-  lon: 26.69156
-  osoite: Savonkatu 23, kolmas kerros
-  url: http://hacklabkouvola.fi/
-  status: building
-  txt: Kaakkois-Suomen ensimmäinen yhteisöllinen työtila
-  pin: "kouvola_pin.png"
 
 
 # Suunnitteluasteella (ei sijaintia)

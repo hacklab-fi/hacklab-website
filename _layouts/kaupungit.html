@@ -16,7 +16,7 @@ layout: default
             {% elsif k.status == 'idea' %}
               <p class="hs_status">Esitetty ajatus perustamisesta</p>
             {% endif %}
-            {% if k.osoite %}<p>{{ k.osoite }}</p>{% endif %}
+            {% if k.osoite %}<p>{% if k.osm_node %}<a href="http://www.openstreetmap.org/node/{{ k.osm_node }}">{% endif %}{{ k.osoite }}{% if k.osm_node %}</a>{% endif %}{% endif %}
             {% if k.url %}<p><a href="{{ k.url }}">{{ k.url }}</a></p>{% endif %}
             <p>{{ k.txt }}</p>
           </div>
