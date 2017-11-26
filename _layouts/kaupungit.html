@@ -16,6 +16,7 @@ layout: default
             {% elsif k.status == 'idea' %}
               <p class="hs_status">Esitetty ajatus perustamisesta</p>
             {% endif %}
+            {% if k.osoite %}<p>{{ k.osoite }}</p>{% endif %}
             {% if k.url %}<p><a href="{{ k.url }}">{{ k.url }}</a></p>{% endif %}
             <p>{{ k.txt }}</p>
           </div>
