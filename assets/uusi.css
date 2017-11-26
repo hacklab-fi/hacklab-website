@@ -87,10 +87,10 @@ a {
 /* yläotsikko */
 
 .jumbotron {
-	background: -moz-linear-gradient(to bottom right,#11a8a320,#00000070), url('images/header1.jpg');
-    background: -o-linear-gradient(to bottom right,#11a8a320,#00000070), url('images/header1.jpg');
-    background: -webkit-linear-gradient(to bottom right,#11a8a320,#00000070), url('images/header1.jpg');
-	background: linear-gradient(to bottom right,#11a8a320,#00000070), url('images/header1.jpg');
+	background: -moz-linear-gradient(to bottom right, rgba(17,168,163,0.12), rgba(0,0,0,0.4)), url('images/header1.jpg');
+    background: -o-linear-gradient(to bottom right, rgba(17,168,163,0.12), rgba(0,0,0,0.4)), url('images/header1.jpg');
+    background: -webkit-linear-gradient(to bottom right, rgba(17,168,163,0.12), rgba(0,0,0,0.4)), url('images/header1.jpg');
+	background: linear-gradient(to bottom right, rgba(17,168,163,0.12), rgba(0,0,0,0.4)), url('images/header1.jpg');
 
     background-repeat: no-repeat;
     background-size: cover;
