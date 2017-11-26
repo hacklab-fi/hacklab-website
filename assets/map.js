@@ -23,7 +23,7 @@ L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 
 {% if k.pin %}
 var icon_{{ forloop.index }} = L.icon({
-    iconUrl: 'assets/leaflet/images/{{k.pin}}',
+    iconUrl: '{{ site.url }}{{ site.baseurl }}/assets/leaflet/images/{{k.pin}}',
 
     iconSize:     [50, 79], 
     iconAnchor:   [25, 79], 
