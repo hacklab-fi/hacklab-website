@@ -8,7 +8,7 @@ header: n
           <div class="col-sx-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
            <div class="post-content">
              <div class="col-content">
-                <a href="posts_images/{{ page.image }}""><img src="posts_images/{{ page.image }}" alt="Kuvituskuva" class="post-image"/></a>
+                <a href="{{ site.url }}{{ site.baseurl }}/posts_images/{{ page.image }}""><img src="{{ site.url }}{{ site.baseurl }}/posts_images/{{ page.image }}" alt="Kuvituskuva" class="post-image"/></a>
                 <h2>{{ page.title }}</h2>
                 <span class="post-meta">{{ post.date | date: date_to_string }}</span>
                 {{ content }}
@@ -26,7 +26,7 @@ header: n
   
                   {% comment %}OTETAAN KÄYTTÖÖN MYÖHEMMIN?{% for tag in post_fi.tags %}<span class="post-meta">#{{tag}}</span>{% endfor %}</span>{% endcomment %}
   
-                  <a class="btn btn-default" href="{{ site.baseurl }}/index.html" role="button">Etusivulle</a>
+                  <a class="btn btn-default" href="{{ site.url }}{{ site.baseurl }}/index.html" role="button">Etusivulle</a>
                 </div>
               </div>
             </div>
