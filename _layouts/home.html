@@ -11,11 +11,11 @@ lang: fi
 
  <div class="row">
   <div class="col-12 col-sx-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 col-xl-8 col-xl-offset-2">
-    {% if page.lang == 'en' %}<h1><a href="{{ site.url }}{{ site.baseurl }}/blog/index_en.html">hacklab.fi blog</a></h1><a href="{{ site.url }}{{ site.baseurl }}/blog/index_en.html">All blog posts &raquo;</a>
+    {% if page.lang == 'en' %}<h1><a href="{{ site.url }}{{ site.baseurl }}/blog/index_en.html" class="blogtitle">hacklab.fi blog</a></h1><a href="{{ site.url }}{{ site.baseurl }}/blog/index_en.html">All blog posts &raquo;</a>
     {% else %}<h1><a href="{{ site.url }}{{ site.baseurl }}/blog/index.html" class="blogtitle">hacklab.fi blog</a></h1><a href="{{ site.url }}{{ site.baseurl }}/blog/index.html">Kaikki blogikirjoitukset &raquo;</a>{% endif %}
     <div class="col-content">
        <img src="{{ site.url }}{{ site.baseurl }}/posts_images/{{ this_post.image }}" alt="Kuvituskuva" class="post-excrept-image"/>
-       <h2><a href="{{ this_post.url }}">{% if page.lang == 'en' and this_post.translation_en %}{{ this_post.translation_title_en }}{% else %}{{ this_post.title | escape }}{% endif %}</a></h2>
+       <h2><a href="{{ this_post.url | relative_url }}">{% if page.lang == 'en' and this_post.translation_en %}{{ this_post.translation_title_en }}{% else %}{{ this_post.title | escape }}{% endif %}</a></h2>
        <span class="post-meta">{{ this_post.date | date: "%-d %B %Y" }}</span>
        {% if page.lang == 'en' and this_post.translation_en %}<p>{{ this_post.translation_en | strip_html | truncatewords: 50}} ...</p>{% else %}{{ this_post.excerpt}}{%if this_post.content != this_post.excerpt %} ...{% endif %}{% endif %}
        <p>
