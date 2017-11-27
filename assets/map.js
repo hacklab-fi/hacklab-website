@@ -22,11 +22,7 @@ L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 
 {% assign all_cities = site.data.kaupungit %}
 
-
 {% for k in all_cities %}
-
-// piirtojärjestys, lat & lon?
-
 {% if k.pin %}
 var icon_{{ forloop.index }} = L.icon({
     iconUrl: '{{ site.url }}{{ site.baseurl }}/assets/leaflet/images/{{k.pin}}',
@@ -36,8 +32,9 @@ var icon_{{ forloop.index }} = L.icon({
     popupAnchor:  [0, -40] 
 });
 {% endif %}
-
+{% if k.lat and k.lon %}
 var marker_{{ forloop.index }} = L.marker([{{ k.lat }}, {{ k.lon }}] {% if k.pin %}, {icon: icon_{{ forloop.index }} } {% endif %} )
     .bindPopup("<a href='{{k.url}}''>{{k.kaupunki}}</a><br/>{{ k.txt }}")
     .addTo(mymap);
+{% endif %}
 {% endfor %}

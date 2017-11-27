@@ -9,15 +9,15 @@ lang: fi
         <div class="col-12 col-sx-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
           <div class="col-cities">
             <div class="col-content">
-              <h2>{{ k.kaupunki }}</h2>
               {% if k.logo %}<img src="{{ site.url }}{{ site.baseurl }}/assets/images/logos/{{ k.logo }}" alt="{{ k.kaupunki }} logo" class="city_logo hidden-xs"/>{% endif %}
+              <h2 class="hs_title">{{ k.kaupunki }}
               {% if k.status == 'active' %}
-                <p class="hs_status">Aktiivinen</p>
+                <span class="hs_status">aktiivinen</span>
               {% elsif k.status == 'building' %}
-                <p class="hs_status">Perusteilla</p>
+                <span class="hs_status">perusteilla</span>
               {% elsif k.status == 'idea' %}
-                <p class="hs_status">Esitetty ajatus perustamisesta</p>
-              {% endif %}
+                <span class="hs_status">idea perustamisesta</span>
+              {% endif %}</h2>
               {% if k.osoite %}<p>{% if k.osm_node %}<a href="http://www.openstreetmap.org/node/{{ k.osm_node }}">{% endif %}{{ k.osoite }}{% if k.osm_node %}</a>{% endif %}{% endif   %}
               {% if k.url %}<p><a href="{{ k.url }}">{{ k.url }}</a></p>{% endif %}
               <p>{{ k.txt }}</p>
@@ -26,11 +26,14 @@ lang: fi
         </div>
        {% endfor %}
 
-        <div class="col-sx-12 col-sm-12 col-md-12 col-lg-12 col-xl-8"> 
-          <div class="col-content">
+        <div class="col-12 col-sx-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+          <div class="col-cities">
+            <div class="col-content">
             <h2>Puuttuuko oma asuinpakkasi listalta?</h2>
             <p>Kysy meiltä miten voimme auttaa uuden hacklabin perustamisessa! Esittäydy discoursessa, keskustele irkissä tai käytä somea – voimme auttaa viestin levittämisessä.</p>
+            <p>Osallistu keskusteluun #hacklab.fi-kanavalla irkissä (Freenode) ja lähde toteuttamaan uutta hacklabia omalle alueellesi!</p>
           </div>
         </div>
+      </div>
 
       </div>

@@ -57,6 +57,15 @@ a {
 	max-width: 50%;
 	min-width: 200px;
 }
+@media all and (min-width:1px) and (max-width: 568px)
+  {
+	#footerlogo{
+	margin: 15px auto;
+	width: 300px;
+    float: none;
+    display: block;
+  }
+}
 
 
 /* Map */
@@ -139,6 +148,7 @@ a {
 
 .col-cities {
 	width: 80%;
+	max-width: 900px;
 	margin: 0px auto;
 }
 
@@ -159,9 +169,13 @@ a {
     color: white;
     font-size: 130%;
 }
-
+.hs_title {
+}
 .hs_status{
-	display:block;
+	display:inline;
+	font-weight: lighter;
+	margin: 0px 0px 0px 15px;
+	font-size: 14pt;
 }
 
 /* lista kaupungeista */
