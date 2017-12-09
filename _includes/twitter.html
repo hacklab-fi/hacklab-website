@@ -1,0 +1,10 @@
+<div class="twitter-fullwidth fullwidth">
+  <div class="container">
+  	{% assign handles = site.data.kaupungit | map: "twitter" | compact | join: "%20OR%20from%3A" | escape %}
+    <a class="twitter-timeline" href="https://twitter.com/search?q=from%3A{{ handles }}" data-widget-id="935207278105583617" data-chrome="noheader nofooter noborders noscrollbar">Twiittejä hacklab.fi-maailmasta</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </div>
+</div>
+
+
+

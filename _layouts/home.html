@@ -7,20 +7,36 @@ lang: fi
 
 <!-- ugly hack to allow bilingual pagination in github pages -->
 
- {% assign this_post = site.posts.first %}
+{% assign this_post = site.posts.first %}
 
- <div class="row">
+{% include this_post.html %}
+
+<div class="row">
   <div class="col-12 col-sx-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 col-xl-8 col-xl-offset-2">
-    {% if page.lang == 'en' %}<h1><a href="{{ site.url }}{{ site.baseurl }}/blog/index_en.html" class="blogtitle">hacklab.fi blog</a></h1><a href="{{ site.url }}{{ site.baseurl }}/blog/index_en.html">All blog posts &raquo;</a>
-    {% else %}<h1><a href="{{ site.url }}{{ site.baseurl }}/blog/index.html" class="blogtitle">hacklab.fi blog</a></h1><a href="{{ site.url }}{{ site.baseurl }}/blog/index.html">Kaikki blogikirjoitukset &raquo;</a>{% endif %}
-    <div class="col-content">
-       <img src="{{ site.url }}{{ site.baseurl }}/posts_images/{{ this_post.image }}" alt="Kuvituskuva" class="post-excrept-image"/>
-       <h2><a href="{{ this_post.url | relative_url }}">{% if page.lang == 'en' and this_post.translation_en %}{{ this_post.translation_title_en }}{% else %}{{ this_post.title | escape }}{% endif %}</a></h2>
-       <span class="post-meta">{{ this_post.date | date: "%-d %B %Y" }}</span>
-       {% if page.lang == 'en' and this_post.translation_en %}<p>{{ this_post.translation_en | strip_html | truncatewords: 50}} ...</p>{% else %}{{ this_post.excerpt}}{%if this_post.content != this_post.excerpt %} ...{% endif %}{% endif %}
-       <p>
-         <a class="btn btn-default" href="{{ this_post.url | relative_url }}" role="button">{% if page.lang == 'fi' %}Lue lis&#xE4;&#xE4;{% else %}Read more{% endif %}</a>
-       </p>
+    {% if paginator.total_pages > 1 %}
+    <div class="pagination">
+      {% if paginator.previous_page %}
+        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
+      {% else %}
+        <span>&laquo; Prev</span>
+      {% endif %}
+    
+      {% for page in (1..paginator.total_pages) %}
+        {% if page == paginator.page %}
+          <em>{{ page }}</em>
+        {% elsif page == 1 %}
+          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+        {% else %}
+          <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+        {% endif %}
+      {% endfor %}
+    
+      {% if paginator.next_page %}
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
+      {% else %}
+        <span>Next &raquo;</span>
+      {% endif %}
     </div>
+    {% endif %}
   </div>
 </div>
