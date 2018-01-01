@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Hacklab.fi mukana Disobey-tapahtumassa"
+ref:    disobey2018
+lang:   fi
+date:   2017-12-31 14:00:00 +0300
+tags:   Disobey tapahtumat uutiset
+image:  201712_Disobey_logo.png
+translation_en: |
+  Hacklab.fi is participating in infosec and hacker culture event Disobey. We'll have tools for electronics repair and building available at our booth. Place and date: Helsinki, Kattilahalli / 12-13th Jan. 2018 / disobey.fi
+translation_title_en: "Hacklab.fi at Disobey"
+---
+Hacklab.fi on mukana tietoturva- ja hakkerikulttuuritapahtuma Disobeyssa. Tuomme ständille mukanamme työvälineitä elektroniikan korjaamiseen ja rakenteluun.
+
+Paikka ja aika: Helsinki, Kattilahalli / 12-13.1.2018 / [disobey.fi](https://disobey.fi/)

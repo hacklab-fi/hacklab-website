@@ -1,0 +1,13 @@
+<!-- blog title include -->
+<div class="row">
+  <div class="col-12 col-sx-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 col-xl-8 col-xl-offset-2">
+    <div class="post-content">
+      {% if page.lang == 'en' %}
+      <h1><a href="{{ site.url }}{{ site.baseurl }}/blog/index_en.html" class="blogtitle">hacklab.fi blog</a></h1>
+      <a class="allposts" href="{{ site.url }}{{ site.baseurl }}/blog/index_en.html">All blog posts &raquo;</a>
+      {% else %}
+      <h1><a href="{{ site.url }}{{ site.baseurl }}/blog/index.html" class="blogtitle">hacklab.fi blog</a></h1>
+      <a class="allposts" href="{{ site.url }}{{ site.baseurl }}/blog/index.html">Kaikki blogikirjoitukset &raquo;</a>{% endif %}
+    </div>
+  </div>
+</div>

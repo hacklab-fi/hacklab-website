@@ -7,8 +7,10 @@ lang: fi
 
 <!-- ugly hack to allow bilingual pagination in github pages -->
 
-{% assign this_post = site.posts.first %}
 
+{% include blog_title.html %}
+
+{% assign this_post = site.posts.first %}
 {% include this_post.html %}
 
 <div class="row">
