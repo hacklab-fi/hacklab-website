@@ -173,6 +173,17 @@
   pin: "kouvola_pin.png"
   logo: "kouvola.png"
 
+- kaupunki: Nokia Hacklab
+  lat: 61.47485
+  lon: 23.50737
+  osoite: Pirkkalaistie 1
+  url: http://uusinokia.fi/
+  status: active
+  txt: Uusi hacklab perustettu!
+  pin: "nokia_pin.png"
+  logo: "nokia.png"
+
+
 
 # rakenteilla olevat
 
