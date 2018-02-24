@@ -7,6 +7,7 @@
 # aktiiviset
 
 - kaupunki: Helsinki Hacklab
+  id: helsinki
   lat: 60.22199
   lon: 24.85194
   osoite: Takkatie 18, takaovi
@@ -21,6 +22,7 @@
   twitter: "HelsinkiHacklab"
 
 - kaupunki: Tampere Hacklab
+  id: tampere
   lat: 61.48137
   lon: 23.78915
   osoite: Ahlmanintie 56
@@ -35,6 +37,7 @@
   twitter: "trehacklab"
 
 - kaupunki: Vaasa Hacklab
+  id: vaasa
   lat: 63.1095933
   lon: 21.5855139
   osoite: Salmikatu 1, Vanha saippuatehdas
@@ -49,6 +52,7 @@
   twitter: "VaasaHacklab"
 
 - kaupunki: Turku Hacklab
+  id: turku
   lat: 60.4826874
   lon: 22.3115418
   osoite: Orikedonkatu 18, toinen kerros
@@ -63,6 +67,7 @@
   twitter: "turkuhacklab"
 
 - kaupunki: Oulu Tarlab
+  id: oulu
   lat: 65.02556
   lon: 25.48531
   osoite: Valtatie 67, takaovi
@@ -75,6 +80,7 @@
   twitter: "TarlabOulu"
 
 - kaupunki: Hacklab Jyväskylä
+  id: jyvaskyla
   lat: 62.2395419
   lon: 25.7260400
   osoite: Keskikatu 18 A
@@ -89,6 +95,7 @@
   twitter: "hacklabjkl"
 
 - kaupunki: Hacklab Kuopio
+  id: kuopio
   lat: 62.8936742
   lon: 27.6579424
   osoite: Kotkankallionkatu 3
@@ -103,6 +110,7 @@
   twitter: "KuopioHacklab"
 
 - kaupunki: Tech Club Joensuu
+  id: joensuu
   lat: 62.60000
   lon: 29.78359
   osoite: Sortavalankatu 2, ovi 4B
@@ -116,6 +124,7 @@
   irc_network: "QuakeNet"
 
 - kaupunki: Hacklab Mikkeli
+  id: mikkeli
   lat: 61.6933473
   lon: 27.2625445
   osoite: Pietarinkatu 23 (sisäänkäynti Yrjönkadun puolelta)
@@ -128,6 +137,7 @@
   twitter: "HacklabMikkeli"
 
 - kaupunki: Hacklab Pori
+  id: pori
   lat: 61.4877445
   lon: 21.7902814
   osoite: Otavankatu 3
@@ -141,6 +151,7 @@
   twitter: "porihacklab"
 
 - kaupunki: Virrat Hacklab
+  id: virrat
   lat: 62.23843
   lon: 23.76390
   osoite: Sipiläntie 1, pohjakerros
@@ -152,6 +163,7 @@
   twitter: "VirratHacklab"
 
 - kaupunki: Lahti Hacklab
+  id: lahti
   lat: 60.98852
   lon: 25.66393
   osoite: Sammonkatu 8 H (sisäänkäynti Kauppakadun puolelta)
@@ -164,6 +176,7 @@
   irc_network: "Freenode"
 
 - kaupunki: Kouvola Hacklab
+  id: kouvola
   lat: 60.87289
   lon: 26.69156
   osoite: Savonkatu 23, kolmas kerros
@@ -174,6 +187,7 @@
   logo: "kouvola.png"
 
 - kaupunki: Nokia Hacklab
+  id: nokia
   lat: 61.47485
   lon: 23.50737
   osoite: Pirkkalaistie 1
@@ -188,6 +202,7 @@
 # rakenteilla olevat
 
 - kaupunki: Seinäjoki Hacklab
+  id: seinajoki
   lat: 62.79212
   lon: 22.84396
   osoite: 
@@ -198,6 +213,16 @@
   logo: "seinajoki.png"
   irc: "#SjkHacklab"
   irc_network: "Freenode"
+
+- kaupunki: Pieksämäki
+  id: pieksamaki
+  lat: 62.29487
+  lon: 27.13361
+  osoite:
+  url: kaupungit.html#pieksamaki
+  status: idea
+  txt: "Pieksämäkeen uusi hacklab? Kysy lisää #hacklab.fi-kanavalla"
+
 
 
 # Suunnitteluasteella (ei sijaintia)

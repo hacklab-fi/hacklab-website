@@ -3,13 +3,17 @@
      <h2>{% if page.lang == 'fi' %}Kaupungit{% else %}Cities{% endif %}</h2>
      {% assign status_a = site.data.kaupungit | where:'status', 'active' %}
      {% assign status_b = site.data.kaupungit | where:'status', 'building' %}
+     {% assign status_c = site.data.kaupungit | where:'status', 'idea' %}
      <p class="hs_status_listing">{% if page.lang == 'fi' %}Aktiiviset{% else %}Active{% endif %}</p>
      {% for k in status_a %}
      <span class="hs_list"><a href="{{ k.url }}">{{ k.kaupunki }}</a></span>
      {% endfor %}
      {% if status_b %}
-     <p class="hs_status_listing">{% if page.lang == 'fi' %}Perusteilla{% else %}Building{% endif %}</p>
+     <p class="hs_status_listing">{% if page.lang == 'fi' %}Perusteilla tai ideavaiheessa{% else %}Building or idea stage{% endif %}</p>
      {% for k in status_b %}
+     <span class="hs_list"><a href="{{ k.url }}">{{ k.kaupunki }}</a></span>
+     {% endfor %}
+     {% for k in status_c %}
      <span class="hs_list"><a href="{{ k.url }}">{{ k.kaupunki }}</a></span>
      {% endfor %}
      {% endif %}
