@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Hacklab Summit Finland 2018"
+ref:    HSF18
+lang:   fi
+date:   2018-02-24 17:00:00 +0300
+tags:   HSF Jyväskylä
+image:  201802_HSF18.png
+translation_en: |
+  Hacklab Summit Finland, also HSF18 for short, is arranged during the first weekend of March. The happening is held in Jyväskylä for the first time, and concurrently with digital culture event Instanssi. All hackerspace people in Finland are invited, as well as those who are yet planning to start a group. There will be drafting of co-operation, recreation, sauna, a robot competition, a visit to Jyväskylä Hacklab and presentations. The HSF tradition has started in 2012 and it is a biannual event. http://hsf.hacklab.fi
+translation_title_en: "Hacklab Summit Finland 2018"
+---
+Hacklab Summit Finland 2018, eli HSF18, järjestetään maaliskuun ensimmäisenä viikonloppuna. Paikkana on ensi kertaa Jyväskylä, ja tapahtuma on samassa yhteydessä digitaalikulttuurin tapahtuma Instanssin kanssa.
+
+Paikalle on kutsuttu kaikki hacklab-toiminassa mukana olevat tai toiminnan perustamista kaupungissaan suunnittelevat. Kaikki toimintansa alkuvaiheessa olevat ryhmät ovat erityisen tervetulleita mukaan! Ohjelmassa on mm. yhteistyön suunnittelua, vapaata ajanviettoa, saunomista, robottikisa, vierailu Jyväskylä Hacklabin tiloihin ja esityksiä. HSF-perinne on alkanut vuonna 2012 ja tapahtuma järjestetään kaksi kertaa vuodessa.
+
+Info ja aikataulut: [http://hsf.hacklab.fi](http://hsf.hacklab.fi/)
