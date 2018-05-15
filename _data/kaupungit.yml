@@ -214,16 +214,6 @@
   irc: "#SjkHacklab"
   irc_network: "Freenode"
 
-- kaupunki: Pieksämäki
-  id: pieksamaki
-  lat: 62.29487
-  lon: 27.13361
-  osoite:
-  url: kaupungit.html#pieksamaki
-  status: idea
-  txt: "Pieksämäkeen uusi hacklab? Kysy lisää #hacklab.fi-kanavalla"
-
-
 
 # Suunnitteluasteella (ei sijaintia)
 
