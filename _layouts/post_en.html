@@ -10,7 +10,7 @@ lang: en
            <div class="post-content">
              <div class="col-content">
                 <a href="/posts_images/{{ page.image }}""><img src="/posts_images/{{ page.image }}" alt="Kuvituskuva" class="post-image"/></a>
-                <h2>{{ page.title }}</h2>
+                <h2 class="post-title">{{ page.title }}</h2>
                 <span class="post-meta">{{ post.date | date: date_to_string }}</span>
                 {% if page.lang=='en' and post_en %}{{ page.translation_en }}{% else %}{{ content }}{% endif %}
                 <span class="post-meta">{{ page.date | date: "%-d %B %Y" }}</span>

@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Disobey-tapahtumassa mukana taas 2019"
+ref:    disobey2019
+lang:   fi
+date:   2019-01-07 21:30:00 +0300
+tags:   Disobey tapahtumat uutiset
+image:  201712_Disobey_logo.png
+translation_en: |
+  Also this year, hacklab.fi is participating in infosec and hacker culture event Disobey. We hope to see you there too!
+translation_title_en: "We'll be @ Disobey event again in 2019"
+---
+Hacklab.fi on jälleen mukana tietoturva- ja hakkerikulttuuritapahtuma Disobeyssa. Nähdään siis siellä!
+

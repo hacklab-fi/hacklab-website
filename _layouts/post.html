@@ -22,7 +22,7 @@ header: n
     <div class="post-content">
       <div class="post-innercontent-largemargin">
           <img src="{{ site.url }}{{ site.baseurl }}/posts_images/{{ page.image }}" alt="Kuvituskuva" class="post-image"/>
-          <h2>{{ page.title }}</h2>
+          <h2 class="post-title">{{ page.title }}</h2>
           <span class="post-meta">{{ post.date | date: date_to_string }}</span>
           {{ content }}
           {% if page.translation_en %}<hr/>{% if page.translation_title_en %}<h3 class="translation-en">{{page.translation_title_en }}</h3>{% endif %}<p class="translation-en">{{ page.translation_en }}</p>{% endif %}

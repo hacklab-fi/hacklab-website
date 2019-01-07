@@ -196,6 +196,8 @@ a {
 }
 
 /* Posts */
+.post-title {
+}
 .post-meta {
 	color: gray;
 	font-size: 10pt;
@@ -227,6 +229,7 @@ a {
     padding: 12%;
     background: none;
     display:inline-block;
+    width: 100%;
 }
 .post-innercontent-largemargin{
     position:relative;
