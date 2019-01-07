@@ -38,13 +38,13 @@
 
 - kaupunki: Vaasa Hacklab
   id: vaasa
-  lat: 63.1095933
-  lon: 21.5855139
-  osoite: Salmikatu 1, Vanha saippuatehdas
-  url: http://vaasa.hacklab.fi/
+  lat: 63.0878089
+  lon: 21.6131775
+  osoite: Läntinen Kasarmintori 8-10, Rakennus 37, Stalli
+  url: https://vaasa.hacklab.fi/
   osm_node: 4160997147
   status: active
-  txt: "Vaasan oma hacklab. Tilat löytyvät Vanhasta saippuatehtaasta."
+  txt: "Vaasan oma Hacklab. Tilat löytyvät kasarmialueelta Tiilitehtaankadun ja Koulukadun kulmasta."
   pin: "vaasa_pin.png"
   logo: "vaasa.png"
   irc: "#VaasaHacklab"
