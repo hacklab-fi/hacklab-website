@@ -38,10 +38,10 @@
 
 - kaupunki: Vaasa Hacklab
   id: vaasa
-  lat: 63.0878089
-  lon: 21.6131775
+  lat: 63.087808929
+  lon: 21.613177598
   osoite: Läntinen Kasarmintori 8-10, Rakennus 37, Stalli
-  url: https://vaasa.hacklab.fi/
+  url: http://vaasa.hacklab.fi/
   osm_node: 4160997147
   status: active
   txt: "Vaasan oma Hacklab. Tilat löytyvät kasarmialueelta Tiilitehtaankadun ja Koulukadun kulmasta."
@@ -81,9 +81,9 @@
 
 - kaupunki: Hacklab Jyväskylä
   id: jyvaskyla
-  lat: 62.2395419
-  lon: 25.7260400
-  osoite: Keskikatu 18 A
+  lat: 62.2500344
+  lon: 25.7067840
+  osoite: Emännäntie 10
   url: http://jyvaskyla.hacklab.fi/
   osm_node: 3055729214
   status: active
@@ -96,9 +96,9 @@
 
 - kaupunki: Hacklab Kuopio
   id: kuopio
-  lat: 62.8936742
-  lon: 27.6579424
-  osoite: Kotkankallionkatu 3
+  lat: 62.89105
+  lon: 27.67309
+  osoite: Kauppakatu 44 (Kulttuuriareena 44)
   url: http://kuopio.hacklab.fi/
   status: active
   osm_node: 4380469615
@@ -203,9 +203,9 @@
 
 - kaupunki: Seinäjoki Hacklab
   id: seinajoki
-  lat: 62.79212
-  lon: 22.84396
-  osoite: 
+  lat: 62.7880
+  lon: 22.8328
+  osoite: Kauppakatu 25
   url: http://seinajoki.hacklab.fi/
   status: building
   txt: "Tule mukaan suunnittelemaan ja toteuttamaan uusi hacklab Seinäjoelle."
