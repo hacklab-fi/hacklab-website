@@ -142,8 +142,8 @@
   lon: 21.7902814
   osoite: Otavankatu 3
   url: http://pori.hacklab.fi/
-  status: active
-  txt: "Porin seudun hacklab toimii Yhteisökeskuksessa."
+  status: restructuring
+  txt: "Porin seudun hacklab kokoontuu vaihtelevissa paikoissa."
   pin: "pori_pin.png"
   logo: "pori.png"
   irc: "#pori.hacklab.fi"
@@ -197,25 +197,26 @@
   pin: "nokia_pin.png"
   logo: "nokia.png"
 
-
-
-# rakenteilla olevat
-
 - kaupunki: Seinäjoki Hacklab
   id: seinajoki
   lat: 62.7880
   lon: 22.8328
   osoite: Kauppakatu 25
   url: http://seinajoki.hacklab.fi/
-  status: building
-  txt: "Tule mukaan suunnittelemaan ja toteuttamaan uusi hacklab Seinäjoelle."
+  status: active
+  txt: "Omat tilat 2019 alkaen!"
   pin: "seinajoki_pin.png"
   logo: "seinajoki.png"
   irc: "#SjkHacklab"
   irc_network: "Freenode"
 
 
-# Suunnitteluasteella (ei sijaintia)
+# Jos suunnitteluasteella (ei sijaintia), käytä
+#  status: building
+
+# Jos tilanne on epämääräinen tai sijainnit vaihtelevat
+# status: restructuring
+
 
 #- kaupunki: Uusi hacklab kaupunkiisi?
 #  status: idea
