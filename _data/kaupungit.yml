@@ -162,14 +162,14 @@
   logo: "virrat.png"
   twitter: "VirratHacklab"
 
-- kaupunki: Lahti Hacklab
+- kaupunki: Hacklab Lahti
   id: lahti
-  lat: 60.98852
-  lon: 25.66393
-  osoite: Sammonkatu 8 H (sisäänkäynti Kauppakadun puolelta)
+  lat: 60.9845420
+  lon: 25.6581536
+  osoite: Kirkkokatu 11
   url: http://lahti.hacklab.fi/
   status: active
-  txt: "Työtilat järjestyneet, toiminta käynnistymässä."
+  txt: "Avoimet ovet keskiviikkoisin 18:00 eteenpäin"
   pin: "lahti_pin.png"
   logo: "lahti.png"
   irc: "#lahti.hacklab.fi"
