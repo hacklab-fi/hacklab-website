@@ -11,7 +11,7 @@
   lat: 60.22199
   lon: 24.85194
   osoite: Takkatie 18, takaovi
-  url: http://helsinki.hacklab.fi/
+  url: https://helsinki.hacklab.fi/
   osm_node: 788550155
   status: active
   txt: "Helsinki Hacklab, Suomen ensimmäinen hackerpace, perustettu 2010. Työtilat Pitskussa lyhyen kävelymatkan päässä joko Mäkkylän tai Pitäjänmäen asemilta. Avoimet ovet aina tiistaisin klo 17 alkaen."
@@ -26,7 +26,7 @@
   lat: 61.48137
   lon: 23.78915
   osoite: Ahlmanintie 56
-  url: http://tampere.hacklab.fi/
+  url: https://tampere.hacklab.fi/
   osm_node: 3752512170
   status: active
   txt: "Tampere Hacklab, jäsenistöltään Suomen suurin hacklab. Sijaitsee Nekalassa."
@@ -41,7 +41,7 @@
   lat: 63.087808929
   lon: 21.613177598
   osoite: Läntinen Kasarmintori 8-10, Rakennus 37, Stalli
-  url: http://vaasa.hacklab.fi/
+  url: https://vaasa.hacklab.fi/
   osm_node: 4160997147
   status: active
   txt: "Vaasan oma Hacklab. Tilat löytyvät kasarmialueelta Tiilitehtaankadun ja Koulukadun kulmasta."
@@ -56,7 +56,7 @@
   lat: 60.4826874
   lon: 22.3115418
   osoite: Orikedonkatu 18, toinen kerros
-  url: http://turku.hacklab.fi/
+  url: https://turku.hacklab.fi/
   osm_node: 3519065415
   status: active
   txt: "Turun Hacklab on perustettu 2011 ja työtilat sijaitsevat Orikedolla. Avoimet ovet joka tiistai klo 18 alkaen."
@@ -84,7 +84,7 @@
   lat: 62.2500344
   lon: 25.7067840
   osoite: Emännäntie 10
-  url: http://jyvaskyla.hacklab.fi/
+  url: https://jyvaskyla.hacklab.fi/
   osm_node: 3055729214
   status: active
   txt: "Jyväskylän hacklab toimii Voionmaalla, rakennuksen kellarikerroksessa. Avoimet ovet tiistaisin ja lauantaisin. Elektroniikkaa, puutöitä ja ryhmätyöskentelyä."
@@ -155,7 +155,7 @@
   lat: 62.23843
   lon: 23.76390
   osoite: Sipiläntie 1, pohjakerros
-  url: http://virrat.hacklab.fi/
+  url: https://virrat.hacklab.fi/
   status: active
   txt: Yhdistys rekisteröity, tilat osoitteessa Sipiläntie 1.
   pin: "virrat_pin.png"
@@ -167,7 +167,7 @@
   lat: 60.9845420
   lon: 25.6581536
   osoite: Kirkkokatu 11
-  url: http://lahti.hacklab.fi/
+  url: https://lahti.hacklab.fi/
   status: active
   txt: "Avoimet ovet keskiviikkoisin 18:00 eteenpäin"
   pin: "lahti_pin.png"
@@ -191,7 +191,7 @@
   lat: 61.47485
   lon: 23.50737
   osoite: Pirkkalaistie 1
-  url: http://uusinokia.fi/
+  url: https://uusinokia.fi/
   status: active
   txt: Uusi hacklab perustettu!
   pin: "nokia_pin.png"
