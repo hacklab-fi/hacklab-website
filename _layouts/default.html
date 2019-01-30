@@ -57,19 +57,18 @@ pagepath {{ page.path }}
 
 
     {% include navi.html %}
+
     {% if page.header == 'y' %}{% include header.html %}{% endif %}
 
     {% if page.infotxt == 'y' %}{% include infotext.html %}{% endif %}
 
     {% if page.cities == 'y' %}{% include cities.html %}{% endif %}
 
-
-    <div class="container main-container">
-
-      {{ content }}
-
-    </div>
-
+    <section class="main">
+      <div class="container">
+        {{ content }}
+      </div>
+    </section>
 
     {% if page.map == 'y' %}{% include map.html %}{% endif %}
 

@@ -5,33 +5,16 @@ header: n
 lang: en
 ---
 
-        <div class="row">
-          <div class="col-sx-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-           <div class="post-content">
-             <div class="col-content">
-                <a href="/posts_images/{{ page.image }}""><img src="/posts_images/{{ page.image }}" alt="Kuvituskuva" class="post-image"/></a>
-                <h2 class="post-title">{{ page.title }}</h2>
-                <span class="post-meta">{{ post.date | date: date_to_string }}</span>
-                {% if page.lang=='en' and post_en %}{{ page.translation_en }}{% else %}{{ content }}{% endif %}
-                <span class="post-meta">{{ page.date | date: "%-d %B %Y" }}</span>
-              </div>
-            </div>
-          </div>
-          <div class="col-sx-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-            <div class="post-content">
-              <div class="col-content">
-                <div>
-                  {% assign post_fi= site.posts | where: "lang",'fi' | first %}
-                  {% assign post_en= site.posts | where: "lang",'en' | first %}
-  
-                  {% comment %}OTETAAN KÄYTTÖÖN MYÖHEMMIN?{% for tag in post_fi.tags %}<span class="post-meta">#{{tag}}</span>{% endfor %}</span>{% endcomment %}
-  
-                  {% if page.lang=='fi' and post_fi %}<span class="post-meta"><a href="{{post_en.url}}">Read in English</a></span>{% endif %}
-                  {% if page.lang=='en' and post_en %}<span class="post-meta"><a href="{{post_fi.url}}">Lue suomeksi</a></span>{% endif %}
-  
-                  <a class="btn btn-default" href="{{ site.baseurl }}/index.html" role="button">Etusivulle</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+{% include blog_title.html %}
+
+<article class="post post-decorative clearfix">
+  {% assign post_fi= site.posts | where: "lang",'fi' | first %}
+  {% assign post_en= site.posts | where: "lang",'en' | first %}
+
+  {% comment %}OTETAAN KÄYTTÖÖN MYÖHEMMIN?{% for tag in post_fi.tags %}<span class="post-meta">#{{tag}}</span>{% endfor %}</span>{% endcomment %}
+
+  {% if page.lang=='fi' and post_fi %}<span class="post-meta"><a href="{{post_en.url}}">Read in English</a></span>{% endif %}
+  {% if page.lang=='en' and post_en %}<span class="post-meta"><a href="{{post_fi.url}}">Lue suomeksi</a></span>{% endif %}
+
+  <a class="btn btn-default" href="{{ site.baseurl }}/index.html" role="button">Etusivulle</a>
+</article>

@@ -1,38 +1,35 @@
-    <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container navbar-container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"/>
-            <span class="icon-bar"/>
-            <span class="icon-bar"/>
-          </button>
-              {% if page.lang == 'fi' %}<a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/index.html">hacklab.fi</a>
-              {% else %}<a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/index_en.html">hacklab.fi</a>{% endif %}
-        </div>
-        <div id="navbar" class="collapse navbar-collapse">
-          <ul class="nav navbar-nav">
-            <li>
-              <a href="http://discourse.hacklab.fi">Discourse Forum</a>
-            </li>
-            <li>
-              {% if page.lang == 'fi' %}<a href="{{ site.url }}{{ site.baseurl }}/info.html">Hacklab?</a>
-              {% else %}<a href="{{ site.url }}{{ site.baseurl }}/info_en.html">Hacklab?</a>{% endif %}
-            </li>
-            <li>
-              {% if page.lang == 'fi' %}<a href="http://robotit.hacklab.fi">Robotit Strömbergin puistossa</a>
-              {% else %}<a href="http://robotit.hacklab.fi/index_en.html">Robots in Strömberg park</a>{% endif %}
-            </li>
-
-
-            <li>
-              {% if page.lang == 'en' %}<a href="{{ site.url }}{{ site.baseurl }}/index.html">Suomeksi</a>
-              {% else %}<a href="{{ site.url }}{{ site.baseurl }}/index_en.html">In English</a>{% endif %}
-            </li>
-          </ul>
-
-        </div>
-        <!--/.nav-collapse -->
-      </div>
-
-    </nav>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container navbar-container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      {% if page.lang == 'fi' %}<a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/index.html">hacklab.fi</a>
+      {% else %}<a class="navbar-brand" href="{{ site.url }}{{ site.baseurl }}/index_en.html">hacklab.fi</a>{% endif %}
+    </div>
+    <div id="navbar" class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="http://discourse.hacklab.fi">Discourse Forum</a>
+        </li>
+        <li>
+          {% if page.lang == 'fi' %}<a href="{{ site.url }}{{ site.baseurl }}/info.html">Hacklab?</a>
+          {% else %}<a href="{{ site.url }}{{ site.baseurl }}/info_en.html">Hacklab?</a>{% endif %}
+        </li>
+        <li>
+          {% if page.lang == 'fi' %}<a href="http://robotit.hacklab.fi">Robotit Strömbergin puistossa</a>
+          {% else %}<a href="http://robotit.hacklab.fi/index_en.html">Robots in Strömberg park</a>{% endif %}
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          {% if page.lang == 'en' %}<a href="{{ site.url }}{{ site.baseurl }}/index.html">Suomeksi</a>
+          {% else %}<a href="{{ site.url }}{{ site.baseurl }}/index_en.html">In English</a>{% endif %}
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

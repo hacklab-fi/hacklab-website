@@ -1,31 +1,37 @@
-<div class="fullwidth" id="cities">
+<section class="cities" id="cities">
   <div class="container">
-     <h2>{% if page.lang == 'fi' %}Kaupungit{% else %}Cities{% endif %}</h2>
-     {% assign status_a = site.data.kaupungit | where:'status', 'active' %}
-     {% assign status_b = site.data.kaupungit | where:'status', 'building' %}
-     {% assign status_c = site.data.kaupungit | where:'status', 'idea' %}
-     {% assign status_d = site.data.kaupungit | where:'status', 'restructuring' %}
-     <p class="hs_status_listing">{% if page.lang == 'fi' %}Aktiiviset{% else %}Active{% endif %}</p>
-     {% for k in status_a %}
-       <span class="hs_list"><a href="{{ k.url }}">{{ k.kaupunki }}</a></span>
-     {% endfor %}
-     {% if status_b.size > 0 or status_c.size > 0 %}
-       <p class="hs_status_listing">{% if page.lang == 'fi' %}Perusteilla tai ideavaiheessa{% else %}Building or idea stage{% endif %}</p>
-       {% for k in status_b %}
-         <span class="hs_list"><a href="{{ k.url }}">{{ k.kaupunki }}</a></span>
-       {% endfor %}
-       {% for k in status_c %}
-         <span class="hs_list"><a href="{{ k.url }}">{{ k.kaupunki }}</a></span>
-       {% endfor %}
-     {% endif %}
-     {% if status_d.size > 0 %}
-       <p class="hs_status_listing">{% if page.lang == 'fi' %}Uudelleenjärjestelemässä toimintaansa{% else %}Restructuring operations{% endif %}</p>
-       {% for k in status_d %}
-         <span class="hs_list"><a href="{{ k.url }}">{{ k.kaupunki }}</a></span>
-       {% endfor %}
-     {% endif %}
-     <p>
-       <a class="btn btn-default btn-transparent" href="kaupungit.html" role="button">{% if page.lang == 'fi' %}Lue lis&#xE4;&#xE4;{% else %}Read more{% endif %}</a>
-     </p>
+    <h2>{% if page.lang == 'fi' %}Kaupungit{% else %}Cities{% endif %}</h2>
+    {% assign status_a = site.data.kaupungit | where:'status', 'active' %}
+    {% assign status_b = site.data.kaupungit | where:'status', 'building' %}
+    {% assign status_c = site.data.kaupungit | where:'status', 'idea' %}
+    {% assign status_d = site.data.kaupungit | where:'status', 'restructuring' %}
+    <h3>{% if page.lang == 'fi' %}Aktiiviset{% else %}Active{% endif %}</h3>
+    <div class="link-list">
+    {% for k in status_a %}
+      <a href="{{ k.url }}">{{ k.kaupunki }}</a>
+    {% endfor %}
+    </div>
+    {% if status_b.size > 0 or status_c.size > 0 %}
+      <h3>{% if page.lang == 'fi' %}Perusteilla tai ideavaiheessa{% else %}Building or idea stage{% endif %}</h3>
+      <div class="link-list">
+        {% for k in status_b %}
+          <a href="{{ k.url }}">{{ k.kaupunki }}</a>
+        {% endfor %}
+        {% for k in status_c %}
+          <a href="{{ k.url }}">{{ k.kaupunki }}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
+    {% if status_d.size > 0 %}
+      <h3>{% if page.lang == 'fi' %}Uudelleenjärjestelemässä toimintaansa{% else %}Restructuring operations{% endif %}</h3>
+      <div class="link-list">
+        {% for k in status_d %}
+          <a href="{{ k.url }}">{{ k.kaupunki }}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
+    <p class="read-more">
+      <a class="btn btn-default btn-transparent" href="kaupungit.html" role="button">{% if page.lang == 'fi' %}Lue lis&#xE4;&#xE4;{% else %}Read more{% endif %}</a>
+    </p>
   </div>
-</div>
+</section>

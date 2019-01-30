@@ -1,135 +1,137 @@
+/* global styles */
+
 body {
 	padding-top: 50px;
-	background-color:#11a8a3;
-	/*background-image: url('images/bg7.png');*/
 	color: #2d5d58;
 }
+
 a {
 	color: #2d5d58;
 }
 
-
-.container{
-	width: 100%;
+section .container {
+	padding: 10px;
 }
 
-.main-container{
-	padding: 50px 50px 50px 50px;
-	background-color: #66d1c5;
-
+.btn-transparent {
+	background-color: transparent;
 }
 
-
-
-.fullwidth {
-	background-color:	#FFFFFF;
-    margin: 0px auto;
-    padding: 30px;
-}
-.map-fullwidth {
-    color: #61a19a;
-	background-color:	#2d5d58;
-	padding: 30pt 10%;
+.translation-en {
+    font-style: italic;
 }
 
-
-
-/* twitter include */
-.twitter-fullwidth {
-    background: url('images/bg15.png');
-}
-
-
-/* footer */
-
-#footer{
-	padding: 5em 3em;
-	background-color:	#FFFFFF;
-	margin-top: 0px;
-}
-#footer .container{
-	max-width: 1200px;
-	margin: auto;
-}
-#footer .text-info{
-}
-
-#footerlogo{
-	float: right;
-	margin: 0px 15px 0px 30px;
-	max-width: 50%;
-	min-width: 200px;
-}
-@media all and (min-width:1px) and (max-width: 568px)
-  {
-	#footerlogo{
-	margin: 15px auto;
-	width: 300px;
-    float: none;
-    display: block;
-  }
-}
-
-
-/* Map */
-
-
-#mapid {
-	height: 400px;
-}
-
-
-/* Content */
-
-.col-content {
-	background-color:	#FFFFFF;
+.read-more {
 	margin-top: 20px;
-	padding: 20px;
-	width:100%;
-	display:inline-block; /* !! */
 }
 
-.starter-template {
-	padding: 40px 15px;
-	text-align: center;
-}
+/* header */
 
-
-/* yläotsikko */
-
-.jumbotron {
-	background: -moz-linear-gradient(to bottom right, rgba(17,168,163,0.12), rgba(0,0,0,0.4)), url('images/header1.jpg');
-    background: -o-linear-gradient(to bottom right, rgba(17,168,163,0.12), rgba(0,0,0,0.4)), url('images/header1.jpg');
+section.jumbotron {
+	height: 200px;
+	padding-top: 50px;
+	margin-bottom: 0px;
     background: -webkit-linear-gradient(to bottom right, rgba(17,168,163,0.12), rgba(0,0,0,0.4)), url('images/header1.jpg');
 	background: linear-gradient(to bottom right, rgba(17,168,163,0.12), rgba(0,0,0,0.4)), url('images/header1.jpg');
-
     background-repeat: no-repeat;
     background-size: cover;
 	color: #FFFFFF;
-	border-bottom: 4px solid #FFFFFF;
 	font-family: 'Noto Sans', sans-serif;
-	padding-top: 200px;
-	height: 400px;
-	margin-bottom: 0px;
 }
 
-
-.jumbotron .content {
-	
-}
-
-.navbar-nav {
-	float:none; /* ei vyöry otsikon yli */
-}
-
-.underline {
+section.jumbotron .subtitle {
+	padding-bottom: 10px;
 	border-bottom: 3px solid #FFFFFF;
-	width: 100%;
-	display: block;
 }
 
+/* main content */
 
+section.main {
+	background-color: #66d1c5;
+}
 
+/* footer */
+
+.footer .container {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.footer .logo {
+  	margin: 15px auto 30px auto;
+  	width: 300px;
+  	float: none;
+  	display: block;
+}
+
+/* index page city list */
+
+section.cities {
+    background: #3b5252 url(images/bg6.png);
+    color: #FFFFFF;
+}
+
+section.cities a {
+	color: inherit;
+}
+
+section.cities h3 {
+	font-size: inherit;
+	margin: 20px 0;
+}
+
+section.cities .link-list a {
+	display: inline-block;
+	white-space: nowrap;
+	font-size: 130%;
+	margin-right: 2px;
+}
+
+section.cities .link-list a:before {
+	display: inline-block;
+	content: '\22c5';
+	margin-right: 8px;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+/* index page map */
+
+section.map {
+    color: #61a19a;
+	background-color: #2d5d58;
+}
+
+section.map .container {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+section.map p {
+	display: block;
+	height: 0;
+	margin: 0;
+}
+
+section.map .map-container {
+	height: 400px;
+}
+
+/* cities page */
+
+.post .city-logo {
+	float: right;
+	max-width: 50px;
+	max-height: 50px;
+	margin: 0 0 10px 10px;
+}
+
+.post .city-status {
+	display: inline;
+	font-weight: lighter;
+	margin-left: 15px;
+	font-size: 14pt;
+}
 
 /* rss feed */
 
@@ -143,144 +145,80 @@ a {
 	color: #A0A0A0;
 }
 
+/* blog */
 
-
-
-
-/* Kaupungit */
-
-.col-cities {
-	width: 80%;
-	max-width: 900px;
-	margin: 0px auto;
+.blog-title a {
+	display: block;
+	color: #FFFFFF;
+	border-bottom: 3px solid #FFFFFF;
+	font-size: 30pt;
+	text-decoration: none;
 }
 
-
-
-/*col-12 col-sx-12 col-sm-12 col-md-12 col-lg-12 col-xl-12*/
-.city_logo {
-	float: right;
-	max-height: 200px;
-	min-width: 100px;
+.post {
+	background: #FFFFFF;
+	padding: 20px;
+	margin-bottom: 20px;
 }
 
-#cities{
-    background-image: url('images/bg6.png');
-    color: white;
-}
-#cities a{
-    color: white;
-    font-size: 130%;
-}
-.hs_title {
-}
-.hs_status{
-	display:inline;
-	font-weight: lighter;
-	margin: 0px 0px 0px 15px;
-	font-size: 14pt;
+.post h2 {
+	margin-top: 0;
 }
 
-/* lista kaupungeista */
-
-.hs_list{
-	display:inline-block;
-	float:left;
-	margin-left: 20px;
-	margin-bottom: 10px;
-}
-
-.hs_status_listing{
-	display:block;
-	clear: both;
-}
-
-/* Posts */
-.post-title {
-}
-.post-meta {
+.post .post-meta {
+	display: block;
 	color: gray;
 	font-size: 10pt;
-	margin: 10px;
-	display: inline-block;
+	margin: 10px 0;
 }
-.post-excrept-image {
-    max-width: 100%;
-    float: right;
-    width: 300px;
-    padding: 20px 0 20px 20px;
-}
-.post-image {
+
+.post .post-image {
+    display: block;
     max-width: 100%;
     max-height: 400px;
-    display: block;
     margin: 20px auto;
 }
 
-.post-content {
-    width:100%;
-    background: none;
-    position:relative;
-    z-index:0;
-}
-.post-innercontent {
-    position:relative;
-    z-index:10;
-    padding: 12%;
-    background: none;
-    display:inline-block;
-    width: 100%;
-}
-.post-innercontent-largemargin{
-    position:relative;
-    z-index:10;
-    padding: 18%;
-    background: none;
-    display:inline-block;
-}
+/* screen size overrides */
 
+@media screen and (min-width: 768px) {
+	section.jumbotron {
+		height: 300px;
+		padding-top: 100px;
+	}
 
-.allposts {
-	margin-bottom: 50px;
-}
-.deco-visibility {
-    background-color: white; top:0;left:0; position:absolute ;z-index:1; height:100%; width:100%
-}
-.deco-borders {
-	background-color: #66D1C5; top:0;left:0; position:absolute ;z-index:5; height:100%; width:100%
-}
+	section .container {
+		padding: 20px;
+	}
 
-/* blog title */
+	.footer .container {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
 
-.blogtitle {
-	color: #FFFFFF;
-	border-bottom: 3px solid #FFFFFF;
-	width: 100%;
-	display: block;
-	font-size: 30pt;
-}
-.blogtitle {
-	color: #FFFFFF;
-	border-bottom: 3px solid #FFFFFF;
-	width: 100%;
-	display: block;
-}
+	.footer .logo {
+		float: right;
+		margin: 0px 15px 0px 30px;
+		width: auto;
+		max-width: 50%;
+		min-width: 200px;
+	}
 
+	.post-decorative {
+		padding: 12% 12% 15% 12%;
+		background: url('data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%20100%20100%22%20preserveAspectRatio%3D%22none%22%3E%3Cpolygon%20points%3D%2210%2C9%2011.8%2C9%2011.8%2C2.8%2013.4%2C2.8%2013.4%2C11.8%2016.9%2C11.8%2016.9%2C4.7%2020.2%2C4.7%2020.2%2C8.1%2024.9%2C8.1%2024.9%2C2%2025.7%2C2%2025.7%2C10.8%2029.3%2C10.8%2029.3%2C6.2%2033.1%2C6.2%2033.1%2C5%2034.7%2C5%2034.7%2C12.2%2035.7%2C12.2%2035.7%2C2.5%2038.5%2C2.5%2038.5%2C8.9%2040.1%2C8.9%2040.1%2C4.7%2044.7%2C4.7%2044.7%2C6.2%2046.7%2C6.2%2046.7%2C13.5%2048.6%2C13.5%2048.6%2C4.3%2049.5%2C4.3%2049.5%2C5.8%2050.3%2C5.8%2050.3%2C4.3%2053.4%2C4.3%2053.4%2C10.2%2055%2C10.2%2055%2C8.1%2058.6%2C8.1%2058.6%2C1%2060.1%2C1%2060.1%2C10.8%2061.7%2C10.8%2061.7%2C3.1%2063.6%2C3.1%2063.6%2C6.6%2067.3%2C6.6%2067.3%2C5%2069.6%2C5%2069.6%2C11%2072.7%2C11%2072.7%2C4.7%2073.8%2C4.7%2073.8%2C7.2%2077.1%2C7.2%2077.1%2C11.3%2077.9%2C11.3%2077.9%2C4.5%2081.4%2C4.5%2081.4%2C9.5%2082.7%2C9.5%2082.7%2C7.2%2083.5%2C7.2%2083.5%2C11%2088.7%2C11%2088.7%2C6.1%2089.5%2C6.1%2089.5%2C7.6%2091.7%2C7.6%2091.7%2C9.8%2096.4%2C9.8%2096.4%2C12.1%2098%2C12.1%2098%2C17%2093.4%2C17%2093.4%2C18%2095.6%2C18%2095.6%2C23.6%2097%2C23.6%2097%2C25.3%2093.8%2C25.3%2093.8%2C28.8%2098.9%2C28.8%2098.9%2C29.9%2095.7%2C29.9%2095.7%2C34.5%2096.1%2C34.5%2096.1%2C37.4%2094.7%2C37.4%2094.7%2C38.4%2098.6%2C38.4%2098.6%2C42.8%2093.3%2C42.8%2093.3%2C44.1%2096.3%2C44.1%2096.3%2C45.7%2094.4%2C45.7%2094.4%2C46.4%2098.4%2C46.4%2098.4%2C51.4%2096%2C51.4%2096%2C52.2%2097.4%2C52.2%2097.4%2C56%2094%2C56%2094%2C59.1%2098.2%2C59.1%2098.2%2C60.3%2092.7%2C60.3%2092.7%2C61.4%2098.3%2C61.4%2098.3%2C66%2095%2C66%2095%2C67.4%2092%2C67.4%2092%2C70.5%2097.1%2C70.5%2097.1%2C71%2093.1%2C71%2093.1%2C74.9%2098.4%2C74.9%2098.4%2C79.1%2091.8%2C79.1%2091.8%2C81.8%2094.3%2C81.8%2094.3%2C83.3%2097.6%2C83.3%2097.6%2C85.3%2093.3%2C85.3%2093.3%2C87.2%2098.6%2C87.2%2098.6%2C90.6%2093.4%2C90.6%2093.4%2C92%2097.3%2C92%2097.3%2C93.1%2092.5%2C93.1%2092.5%2C98.5%2091.5%2C98.5%2091.5%2C94.5%2088.6%2C94.5%2088.6%2C97.9%2086.6%2C97.9%2086.6%2C88.4%2085.6%2C88.4%2085.6%2C96.5%2082.6%2C96.5%2082.6%2C93.2%2079.6%2C93.2%2079.6%2C97.5%2077.9%2C97.5%2077.9%2C88.4%2076.8%2C88.4%2076.8%2C97.1%2073%2C97.1%2073%2C91.1%2072%2C91.1%2072%2C94.2%2070.3%2C94.2%2070.3%2C95.9%2069.6%2C95.9%2069.6%2C88.4%2065.5%2C88.4%2065.5%2C91.1%2064.5%2C91.1%2064.5%2C96.3%2060.9%2C96.3%2060.9%2C88.6%2058.9%2C88.6%2058.9%2C93%2057.2%2C93%2057.2%2C85.5%2056%2C85.5%2056%2C96.8%2054.7%2C96.8%2054.7%2C93.7%2053.4%2C93.7%2053.4%2C86.8%2052%2C86.8%2052%2C97.6%2050.7%2C97.6%2050.7%2C88.1%2047.5%2C88.1%2047.5%2C92.9%2046%2C92.9%2046%2C96.8%2042.8%2C96.8%2042.8%2C89.4%2041.9%2C89.4%2041.9%2C94.5%2040.1%2C94.5%2040.1%2C86.2%2038.7%2C86.2%2038.7%2C95.9%2037.1%2C95.9%2037.1%2C90.3%2033.4%2C90.3%2033.4%2C93.3%2032.4%2C93.3%2032.4%2C86.9%2028.3%2C86.9%2028.3%2C96.8%2026.9%2C96.8%2026.9%2C90.7%2025.4%2C90.7%2025.4%2C94.6%2024.6%2C94.6%2024.6%2C86.1%2023.9%2C86.1%2023.9%2C95.8%2020%2C95.8%2020%2C90.4%2018.8%2C90.4%2018.8%2C96.6%2016.2%2C96.6%2016.2%2C85.4%2015.1%2C85.4%2015.1%2C93.5%2010.7%2C93.5%2010.7%2C90.8%208.3%2C90.8%208.3%2C95.4%205.3%2C95.4%205.3%2C88.4%203.1%2C88.4%203.1%2C86.2%206.1%2C86.2%206.1%2C84.5%202%2C84.5%202%2C82.9%208.3%2C82.9%208.3%2C81.2%204.1%2C81.2%204.1%2C78.7%207.3%2C78.7%207.3%2C73.3%203.8%2C73.3%203.8%2C69.1%202.7%2C69.1%202.7%2C67%208%2C67%208%2C65.1%205.3%2C65.1%205.3%2C63.4%209.7%2C63.4%209.7%2C61.6%202%2C61.6%202%2C59.1%206.9%2C59.1%206.9%2C57.6%202.8%2C57.6%202.8%2C56.2%207.4%2C56.2%207.4%2C53.5%204.5%2C53.5%204.5%2C50.5%209.1%2C50.5%209.1%2C47.2%203.5%2C47.2%203.5%2C41.6%207.5%2C41.6%207.5%2C34.7%204.5%2C34.7%204.5%2C33.6%206.4%2C33.6%206.4%2C32%202.5%2C32%202.5%2C29.9%207.4%2C29.9%207.4%2C28.4%208.1%2C28.4%208.1%2C26.8%203.6%2C26.8%203.6%2C23.3%204.6%2C23.3%204.6%2C21.9%206.1%2C21.9%206.1%2C18.2%201.7%2C18.2%201.7%2C16.5%204.6%2C16.5%204.6%2C14.4%203.8%2C14.4%203.8%2C12.2%207.4%2C12.2%207.4%2C3.8%2010%2C3.8%22%20style%3D%22fill%3A%20white%3B%20stroke-width%3A%200%3B%22%20%2F%3E%3C%2Fsvg%3E');
+		background-size: 100% 100%;
+	}
 
+	.post .city-logo {
+		max-width: 200px;
+		max-height: 200px;
+		margin: 0 0 20px 20px;
+	}
 
-
-
-/* extend standard elements */
-.btn {
-	clear: left;
-	float: left;
-}
-
-.btn-transparent {
-	background-color: transparent;
-}
-
-/* Translation style */
-.translation-en {
-    font-style: italic;
+	.post .post-image {
+		float: right;
+		max-width: 300px;
+		margin: 0 0 20px 20px;
+	}
 }

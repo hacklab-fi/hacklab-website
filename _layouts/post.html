@@ -4,31 +4,17 @@ layout: default
 header: n
 ---
 
+{% include blog_title.html %}
 
-<div class="row">
-  <div class="col-12 col-sx-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 col-xl-8 col-xl-offset-2">
-    <div class="post-content">
-      {% if page.lang == 'en' %}
-      <h1><a href="{{ site.url }}{{ site.baseurl }}/blog/index_en.html" class="blogtitle">hacklab.fi blog</a></h1>
-      <a class="allposts" href="{{ site.url }}{{ site.baseurl }}/blog/index_en.html">All blog posts &raquo;</a>
-      {% else %}
-      <h1><a href="{{ site.url }}{{ site.baseurl }}/blog/index.html" class="blogtitle">hacklab.fi blog</a></h1>
-      <a class="allposts" href="{{ site.url }}{{ site.baseurl }}/blog/index.html">Kaikki blogikirjoitukset &raquo;</a>{% endif %}
-    </div>
-  </div>
-</div>
-<div class="row">
-  <div class="col-12 col-sx-12 col-sm-12 col-md-12 col-lg-10 col-lg-offset-1 col-xl-8 col-xl-offset-2">
-    <div class="post-content">
-      <div class="post-innercontent-largemargin">
-          <img src="{{ site.url }}{{ site.baseurl }}/posts_images/{{ page.image }}" alt="Kuvituskuva" class="post-image"/>
-          <h2 class="post-title">{{ page.title }}</h2>
-          <span class="post-meta">{{ post.date | date: date_to_string }}</span>
-          {{ content }}
-          {% if page.translation_en %}<hr/>{% if page.translation_title_en %}<h3 class="translation-en">{{page.translation_title_en }}</h3>{% endif %}<p class="translation-en">{{ page.translation_en }}</p>{% endif %}
-        <span class="post-meta">{{ page.date | date: "%-d %B %Y" }}</span>
-      </div>
-      {% include deco_background.html %}
-    </div>
-  </div>
+<div class="post post-decorative clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/posts_images/{{ page.image }}" alt="Kuvituskuva" class="post-image" />
+  <h2 class="post-title">{{ page.title }}</h2>
+  <span class="post-meta">{{ post.date | date: date_to_string }}</span>
+  {{ content }}
+  {% if page.translation_en %}
+    <hr/>
+    {% if page.translation_title_en %}<h3 class="translation-en">{{page.translation_title_en }}</h3>{% endif %}
+    <p class="translation-en">{{ page.translation_en }}</p>
+  {% endif %}
+  <span class="post-meta">{{ page.date | date: "%-d %B %Y" }}</span>
 </div>

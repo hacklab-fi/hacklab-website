@@ -3,39 +3,27 @@ layout: default
 lang: fi
 ---
 
-      <div class="row">
+{% for k in site.data.kaupungit %}
+  <div class="post clearfix" id="{{ k.id }}">
+    {% if k.logo %}<img class="city-logo" src="{{ site.url }}{{ site.baseurl }}/assets/images/logos/{{ k.logo }}" alt="{{ k.kaupunki }} logo" class="hidden-xs" />{% endif %}
+    <h2>{{ k.kaupunki }}
+    {% if k.status == 'active' %}
+      <span class="city-status">aktiivinen</span>
+    {% elsif k.status == 'building' %}
+      <span class="city-status">perustamisvaiheessa</span>
+    {% elsif k.status == 'idea' %}
+      <span class="city-status">idea perustamisesta</span>
+    {% elsif k.status == 'restructuring' %}
+      <span class="city-status">vaihtelevat tapaamiset</span>
+    {% endif %}</h2>
+    {% if k.osoite %}<p>{% if k.osm_node %}<a href="http://www.openstreetmap.org/node/{{ k.osm_node }}">{% endif %}{{ k.osoite }}{% if k.osm_node %}</a>{% endif %}{% endif   %}
+    {% if k.url and k.url contains '://' %}<p><a href="{{ k.url }}">{{ k.url }}</a></p>{% endif %}
+    <p>{{ k.txt }}</p>
+  </div>
+{% endfor %}
 
-        {% for k in site.data.kaupungit %}
-        <div class="col-12 col-sx-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-          <div class="col-cities" id="{{ k.id }}">
-            <div class="col-content">
-              {% if k.logo %}<img src="{{ site.url }}{{ site.baseurl }}/assets/images/logos/{{ k.logo }}" alt="{{ k.kaupunki }} logo" class="city_logo hidden-xs"/>{% endif %}
-              <h2 class="hs_title">{{ k.kaupunki }}
-              {% if k.status == 'active' %}
-                <span class="hs_status">aktiiviset</span>
-              {% elsif k.status == 'building' %}
-                <span class="hs_status">perustamisvaiheessa</span>
-              {% elsif k.status == 'idea' %}
-                <span class="hs_status">idea perustamisesta</span>
-              {% elsif k.status == 'restructuring' %}
-                <span class="hs_status">vaihtelevat tapaamiset</span>
-              {% endif %}</h2>
-              {% if k.osoite %}<p>{% if k.osm_node %}<a href="http://www.openstreetmap.org/node/{{ k.osm_node }}">{% endif %}{{ k.osoite }}{% if k.osm_node %}</a>{% endif %}{% endif   %}
-              {% if k.url and k.url contains '://' %}<p><a href="{{ k.url }}">{{ k.url }}</a></p>{% endif %}
-              <p>{{ k.txt }}</p>
-            </div>
-          </div>
-        </div>
-       {% endfor %}
-
-        <div class="col-12 col-sx-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
-          <div class="col-cities">
-            <div class="col-content">
-            <h2>Puuttuuko oma asuinpakkasi listalta?</h2>
-            <p>Kysy meiltä miten voimme auttaa uuden hacklabin perustamisessa! Esittäydy discoursessa, keskustele irkissä tai käytä somea – voimme auttaa viestin levittämisessä.</p>
-            <p>Osallistu keskusteluun #hacklab.fi-kanavalla irkissä (Freenode) ja lähde toteuttamaan uutta hacklabia omalle alueellesi!</p>
-          </div>
-        </div>
-      </div>
-
-      </div>
+<div class="post">
+  <h2>Puuttuuko oma asuinpakkasi listalta?</h2>
+  <p>Kysy meiltä miten voimme auttaa uuden hacklabin perustamisessa! Esittäydy discoursessa, keskustele irkissä tai käytä somea – voimme auttaa viestin levittämisessä.</p>
+  <p>Osallistu keskusteluun #hacklab.fi-kanavalla irkissä (Freenode) ja lähde toteuttamaan uutta hacklabia omalle alueellesi!</p>
+</div>
