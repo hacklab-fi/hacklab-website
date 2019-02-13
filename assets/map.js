@@ -25,11 +25,11 @@ L.tileLayer("https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={
 {% for k in all_cities %}
 {% if k.pin %}
 var icon_{{ forloop.index }} = L.icon({
-    iconUrl: '{{ site.url }}{{ site.baseurl }}/assets/leaflet/images/{{k.pin}}',
+    iconUrl: '/assets/leaflet/images/{{k.pin}}',
 
-    iconSize:     [50, 79], 
-    iconAnchor:   [25, 79], 
-    popupAnchor:  [0, -40] 
+    iconSize:     [50, 79],
+    iconAnchor:   [25, 79],
+    popupAnchor:  [0, -40]
 });
 {% endif %}
 {% if k.lat and k.lon %}

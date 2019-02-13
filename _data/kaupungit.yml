@@ -189,8 +189,8 @@
   lat: 60.87289
   lon: 26.69156
   osoite: Savonkatu 23, kolmas kerros
-  url: http://hacklabkouvola.fi/
-  rss_url: http://hacklabkouvola.fi/feed/
+  url: https://hacklabkouvola.fi/
+  rss_url: https://hacklabkouvola.fi/feed/
   status: active
   txt: Kaakkois-Suomen ensimmäinen yhteisöllinen työtila
   pin: "kouvola_pin.png"

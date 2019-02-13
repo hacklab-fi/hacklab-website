@@ -11,11 +11,11 @@ translation_en: |
 
   Robots from near and far will race on a track. The family event is part of Summer HSF at Helsinki Hacklab.
 
-  More info on website http://robotit.hacklab.fi/index_en.html.
+  More info on website https://robotit.hacklab.fi/index_en.html.
 translation_title_en: "Robots at Strömberg park 2018"
 ---
 Robotit saapuvat taas Strömbergin puistoon Helsingissä! Uusi kisa järjestetään lauantaina 9. kesäkuuta klo 16 alkaen. Tapahtuma on avoin ja ilmainen kaikille.
 
 Mukana kisassa radalla on robotteja läheltä ja kauempaa Suomessa. Perhetapahtuma on osa hacklabien yhteistä kesän HSF-tapahtumaa Helsinki Hacklabilla.
 
-Lisää tietoa tapahtumasta osoitteessa [robotit.hacklab.fi](http://robotit.hacklab.fi)!
+Lisää tietoa tapahtumasta osoitteessa [robotit.hacklab.fi](https://robotit.hacklab.fi)!
