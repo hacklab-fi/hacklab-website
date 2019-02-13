@@ -7,7 +7,7 @@ header: n
 {% include blog_title.html %}
 
 <div class="post post-decorative clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/posts_images/{{ page.image }}" alt="Kuvituskuva" class="post-image" />
+  <img src="/posts_images/{{ page.image }}" alt="Kuvituskuva" class="post-image" />
   <h2 class="post-title">{{ page.title }}</h2>
   <span class="post-meta">{{ post.date | date: date_to_string }}</span>
   {{ content }}
