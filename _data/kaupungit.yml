@@ -12,6 +12,7 @@
   lon: 24.85194
   osoite: Takkatie 18, takaovi
   url: https://helsinki.hacklab.fi/
+  rss_url: https://helsinki.hacklab.fi/feed/
   osm_node: 788550155
   status: active
   txt: "Helsinki Hacklab, Suomen ensimmäinen hackerpace, perustettu 2010. Työtilat Pitskussa lyhyen kävelymatkan päässä joko Mäkkylän tai Pitäjänmäen asemilta. Avoimet ovet aina tiistaisin klo 17 alkaen."
@@ -27,6 +28,7 @@
   lon: 23.78915
   osoite: Ahlmanintie 56
   url: https://tampere.hacklab.fi/
+  rss_url: https://tampere.hacklab.fi/feeds/rss/
   osm_node: 3752512170
   status: active
   txt: "Tampere Hacklab, jäsenistöltään Suomen suurin hacklab. Sijaitsee Nekalassa."
@@ -42,6 +44,7 @@
   lon: 21.613177598
   osoite: Läntinen Kasarmintori 8-10, Rakennus 37, Stalli
   url: https://vaasa.hacklab.fi/
+  rss_url: https://vaasa.hacklab.fi/feed/
   osm_node: 4160997147
   status: active
   txt: "Vaasan oma Hacklab. Tilat löytyvät kasarmialueelta Tiilitehtaankadun ja Koulukadun kulmasta."
@@ -57,6 +60,7 @@
   lon: 22.3115418
   osoite: Orikedonkatu 18, toinen kerros
   url: https://turku.hacklab.fi/
+  rss_url: https://turku.hacklab.fi/feed/
   osm_node: 3519065415
   status: active
   txt: "Turun Hacklab on perustettu 2011 ja työtilat sijaitsevat Orikedolla. Avoimet ovet joka tiistai klo 18 alkaen."
@@ -85,6 +89,7 @@
   lon: 25.7067840
   osoite: Emännäntie 10
   url: https://jyvaskyla.hacklab.fi/
+  rss_url: https://jyvaskyla.hacklab.fi/en/feed/
   osm_node: 3055729214
   status: active
   txt: "Jyväskylän hacklab toimii Voionmaalla, rakennuksen kellarikerroksessa. Avoimet ovet tiistaisin ja lauantaisin. Elektroniikkaa, puutöitä ja ryhmätyöskentelyä."
@@ -100,6 +105,7 @@
   lon: 27.67309
   osoite: Kauppakatu 44 (Kulttuuriareena 44)
   url: http://kuopio.hacklab.fi/
+  rss_url: http://kuopio.hacklab.fi/blog/feed/
   status: active
   osm_node: 4380469615
   txt: "Kuopion Hacklab"
@@ -115,6 +121,7 @@
   lon: 29.78359
   osoite: Sortavalankatu 2, ovi 4B
   url: http://tcj.fi/
+  rss_url: http://tcj.fi/feed/
   osm_node: 4161097330
   status: active
   txt: "Joensuun edustus hacklab.fi:ssa. Sijaitsee veturitalleilla. Ovet avoinna keskiviikkoisin klo 17-20."
@@ -142,6 +149,7 @@
   lon: 21.7902814
   osoite: Otavankatu 3
   url: http://pori.hacklab.fi/
+  rss_url: http://pori.hacklab.fi/wordpress/?feed=rss2
   status: restructuring
   txt: "Porin seudun hacklab kokoontuu vaihtelevissa paikoissa."
   pin: "pori_pin.png"
@@ -168,6 +176,7 @@
   lon: 25.6581536
   osoite: Kirkkokatu 11
   url: https://lahti.hacklab.fi/
+  rss_url: https://lahti.hacklab.fi/feed/
   status: active
   txt: "Avoimet ovet keskiviikkoisin 18:00 eteenpäin"
   pin: "lahti_pin.png"
@@ -181,6 +190,7 @@
   lon: 26.69156
   osoite: Savonkatu 23, kolmas kerros
   url: https://hacklabkouvola.fi/
+  rss_url: https://hacklabkouvola.fi/feed/
   status: active
   txt: Kaakkois-Suomen ensimmäinen yhteisöllinen työtila
   pin: "kouvola_pin.png"
@@ -192,6 +202,7 @@
   lon: 23.50737
   osoite: Pirkkalaistie 1
   url: https://uusinokia.fi/
+  rss_url: https://uusinokia.fi/feed/
   status: active
   txt: Uusi hacklab perustettu!
   pin: "nokia_pin.png"
@@ -203,6 +214,7 @@
   lon: 22.8328
   osoite: Kauppakatu 25
   url: http://seinajoki.hacklab.fi/
+  rss_url: http://seinajoki.hacklab.fi/feed.xml
   status: active
   txt: "Omat tilat 2019 alkaen!"
   pin: "seinajoki_pin.png"
