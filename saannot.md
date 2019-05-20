@@ -88,8 +88,8 @@ erottamispäätöksen jälkeen ilman irtisanomisaikaa.
 Liiton varsinaiset jäsenet ovat velvollisia lähettämään Liitolle
 jäljennökset tili- tai toiminnantarkastajien lausunnosta ja
 jäsenyhdistyksen hyväksymän toimintakertomuksen edelliseltä vuodelta,
-tiedon jäsenmäärästään sekä yhteystietonsa vuosittain ennen kesäkuun
-1. päivää.
+tiedon jäsenmäärästään sekä yhteystietonsa vuosittain ennen
+kesäkuun 1. päivää.
 
 Mikäli kyseessä on jäsenyhdistyksen ensimmäinen tilikausi, riittää
 velvollisuudeksi toimittaa perustamiskokouksen pöytäkirjan jäljennös
