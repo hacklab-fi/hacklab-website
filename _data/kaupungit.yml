@@ -135,7 +135,7 @@
   lat: 61.6933473
   lon: 27.2625445
   osoite: Pietarinkatu 23 (sisäänkäynti Yrjönkadun puolelta)
-  url: http://mikkeli.hacklab.fi/
+  url: https://www.hacklabmikkeli.fi/
   osm_node: 3882978198
   status: active
   txt: "Mikkeliläistä hacklab-toimintaa syksystä 2014 saakka. Ihan kaikille avoimet ovet joka torstai klo 17 alkaen."
