@@ -1,4 +1,10 @@
-﻿# Hacklab ry – Säännöt
+---
+layout: default_page
+title: Hacklab ry.:n säännöt
+lang: fi
+---
+
+# Hacklab ry – Säännöt
 
 ## Nimi, kotipaikka ja toimialue
 

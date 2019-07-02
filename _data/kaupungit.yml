@@ -92,7 +92,7 @@
   rss_url: https://jyvaskyla.hacklab.fi/en/feed/
   osm_node: 3055729214
   status: active
-  txt: "Jyväskylän hacklab toimii Voionmaalla, rakennuksen kellarikerroksessa. Avoimet ovet tiistaisin ja lauantaisin. Elektroniikkaa, puutöitä ja ryhmätyöskentelyä."
+  txt: "Jyväskylän hacklab toimii Kortepohjassa osoitteessa Emännäntie 10, O-siivessä rakennuksen katutasossa. Avoimet ovet tiistaisin ja lauantaisin. Elektroniikkaa, puutöitä ja ryhmätyöskentelyä."
   pin: "jyvaskyla_pin.png"
   logo: "jyvaskyla.png"
   irc: "#hacklab.jkl"
@@ -106,7 +106,7 @@
   osoite: Kauppakatu 44 (Kulttuuriareena 44)
   url: http://kuopio.hacklab.fi/
   rss_url: http://kuopio.hacklab.fi/blog/feed/
-  status: active
+  status: restructuring
   osm_node: 4380469615
   txt: "Kuopion Hacklab"
   pin: "kuopio_pin.png"
