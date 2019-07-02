@@ -1,4 +1,10 @@
-﻿# Hacklab ry – Säännöt
+---
+layout: default_page
+title: Hacklab ry.:n säännöt
+lang: fi
+---
+
+# Hacklab ry – Säännöt
 
 ## Nimi, kotipaikka ja toimialue
 
@@ -165,7 +171,7 @@ kuukauden kuluessa kokouksesta.
 ### 9 §
 
 Liittokokoukseen voidaan hallituksen niin päättäessä osallistua myös
-tietoliikenneyhteyden tai muun teknisen apuvälineen avulla,
+tietoliikenneyhteyden tai muun teknisen apuvälineen avulla kokouksen aikana,
 hallituksen kokouskutsussa määrittelemillä tavoilla. Liittokokouksissa
 voidaan antaa myös muille kuin kokousedustajille läsnäolo- ja
 puheoikeus. Liiton jäsenyhdistysten jäsenille on mahdollisuuksien

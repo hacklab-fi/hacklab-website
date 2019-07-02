@@ -20,8 +20,9 @@ Hacklab-toiminta on avointa kaikille, mutta edellyttää joskus jonkin verran it
 
 ## Itsenäinen yhdistystoiminta
 
-Suomen hacklabien perustama hacklab.fi on itsenäisten ja riippumattomien työtilojen yhteinen verkosto. Mukana olevat hacklabit ovat jokainen omanlaisensa paikallinen ryhmä ja pääosin oma rekisteröitynyt yhdistyksensä. Hacklabit eivät ole osa mitään oppilaitosta tai ole muutoinkaan opiskelijajärjestöjä. Verkosto kokoaa yhteen hacklab-työtilat, jotka pitävät ovensa avoinna kaikille.
+Suomen hacklabien perustama hacklab.fi on itsenäisten ja riippumattomien työtilojen yhteinen verkosto. Mukana olevat hacklabit ovat jokainen omanlaisensa paikallinen ryhmä ja pääosin oma rekisteröitynyt yhdistyksensä. Hacklabit eivät ole osa mitään oppilaitosta taikka ole muutoinkaan opiskelijajärjestöjä. Verkosto kokoaa yhteen hacklab-työtilat, jotka pitävät ovensa avoinna kaikille.
 
+Hacklabeilla on Suomessa yhteinen kattojärjestö Hacklab ry., joka huolehtii yhteisistä resursseista ja tukee jäsenjärjestöjensä toimintaa.
 
 ## Uuden hacklabin perustaminen
 
