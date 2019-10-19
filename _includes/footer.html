@@ -1,10 +1,46 @@
-<section class="footer" id="footer">
-  <div class="container">
-    <img class="logo" src="/assets/images/hacklab_fi_logo.png" alt="hacklab.fi logo"/>
-    {% if page.lang == 'fi' %}
-      <p class="text-info">hacklab.fi – hackerspacet ja makerspacet Suomessa.</p><p class="text-info">Itsenäisten ja avointen työtilojen yhteistyöverkosto. Kaikki jäsenryhmämme ovat jäsentensä ylläpitämiä yleishyödyllisiä yhdistyksiä</p><p class="text-info">Ota meihin yhteyttä IRC-kanavalla #hacklab.fi Freenode-verkossa.</p>
-    {% else %}
-      <p class="text-info">hacklab.fi – hackerspaces and makerspaces in Finland.</p><p class="text-info">A co-operation network between independent and open workspaces. All our member groups are non-profit organizations operated by their members.</p><p class="text-info">You can contact us on IRC, channel #hacklab.fi in Freenode network.</p>
-    {% endif %}
+<section>
+  <div class="externals-footer">
+    <div class="container">
+      <a href="https://upcloud.com/signup?utm_source=Hacklabry&utm_medium=banner&utm_campaign=Hacklabry">
+        <div class="external-box">
+          {% if page.lang == 'fi' %}
+          <p class="external-info">UpCloud tukee toimintaamme</p>
+          {% else %}
+          <p class="external-info">Supported by UpCloud</p>
+          {% endif %}
+          <img class="external-links" src="/assets/images/external/uplcoud_logo.jpg" alt="UpCloud logo"/>
+        </div>
+      </a>
+      <a href="https://coldnorth.org/">
+        <div class="external-box">
+          {% if page.lang == 'fi' %}
+          <p class="external-info">Pohjoismainen hackerspace-yhteistyö</p>
+          {% else %}
+          <p class="external-info">Nordic hackerspace co-operation</p>
+          {% endif %}
+          <img class="external-links" src="/assets/images/external/coldnorth.png" alt="Cold North logo"/>
+        </div>
+      </a>
+      <a href="https://citysec.fi/">
+        <div class="external-box">
+          {% if page.lang == 'fi' %}
+          <p class="external-info">CitySecillä ei ole vielä logoa</p>
+          {% else %}
+          <p class="external-info">CitySec has no real logo yet</p>
+          {% endif %}
+          <img class="external-links" src="/assets/images/external/citysec_placholder.png" alt="CitySec logo"/>
+        </div>
+      </a>
+    </div>
   </div>
-</div>
+  <div class="footer">
+    <div class="container">
+      <img class="logo" src="/assets/images/hacklab_fi_logo.png" alt="hacklab.fi logo"/>
+      {% if page.lang == 'fi' %}
+        <p class="text-info">hacklab.fi – hackerspacet ja makerspacet Suomessa.</p><p class="text-info">Itsenäisten ja avointen työtilojen yhteistyöverkosto. Kaikki jäsenryhmämme ovat jäsentensä ylläpitämiä yleishyödyllisiä yhdistyksiä</p><p class="text-info">Ota meihin yhteyttä IRC-kanavalla #hacklab.fi Freenode-verkossa.</p>
+      {% else %}
+        <p class="text-info">hacklab.fi – hackerspaces and makerspaces in Finland.</p><p class="text-info">A co-operation network between independent and open workspaces. All our member groups are non-profit organizations operated by their members.</p><p class="text-info">You can contact us on IRC, channel #hacklab.fi in Freenode network.</p>
+      {% endif %}
+    </div>
+  </div>
+</section>

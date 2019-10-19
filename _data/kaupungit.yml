@@ -165,6 +165,7 @@
   osoite: Sipiläntie 1, pohjakerros
   url: https://virrat.hacklab.fi/
   status: active
+  osm_node: 6898283992
   txt: Yhdistys rekisteröity, tilat osoitteessa Sipiläntie 1.
   pin: "virrat_pin.png"
   logo: "virrat.png"
