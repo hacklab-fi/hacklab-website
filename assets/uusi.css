@@ -158,6 +158,10 @@ section.map .map-container {
 	font-size: 14pt;
 }
 
+.post p a {
+	text-decoration: underline;
+}
+
 /* rss feed */
 
 .feed-city {
