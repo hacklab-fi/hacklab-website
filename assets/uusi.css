@@ -64,16 +64,22 @@ section.main {
   	display: block;
 }
 
+
 .externals-footer {
     background: #ddf5f4 url(images/bg4.png);
+
 }
 
+.externals-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
 .externals-footer .external-box {
     color: #a8a8a8;
-	width: 270px;
 	min-height: 240px;
+	max-width: 270px;
 	padding: 10px;
-	float: left;
 	margin: 15px;
 	background: #FFFFFF;
 	text-align: center;
@@ -88,6 +94,12 @@ section.main {
 .externals-footer .external-info {
 }
 
+
+.externals-footer .external-flex {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+}
 
 /* index page city list */
 
