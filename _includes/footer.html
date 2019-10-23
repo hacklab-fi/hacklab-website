@@ -1,36 +1,42 @@
 <section>
   <div class="externals-footer">
-    <div class="container">
-      <a href="https://upcloud.com/signup?utm_source=Hacklabry&utm_medium=banner&utm_campaign=Hacklabry">
-        <div class="external-box">
-          {% if page.lang == 'fi' %}
-          <p class="external-info">UpCloud tukee toimintaamme</p>
-          {% else %}
-          <p class="external-info">Supported by UpCloud</p>
-          {% endif %}
-          <img class="external-links" src="/assets/images/external/uplcoud_logo.jpg" alt="UpCloud logo"/>
-        </div>
-      </a>
-      <a href="https://coldnorth.org/">
-        <div class="external-box">
-          {% if page.lang == 'fi' %}
-          <p class="external-info">Pohjoismainen hackerspace-yhteistyö</p>
-          {% else %}
-          <p class="external-info">Nordic hackerspace co-operation</p>
-          {% endif %}
-          <img class="external-links" src="/assets/images/external/coldnorth.png" alt="Cold North logo"/>
-        </div>
-      </a>
-      <a href="https://citysec.fi/">
-        <div class="external-box">
-          {% if page.lang == 'fi' %}
-          <p class="external-info">CitySecillä ei ole vielä logoa</p>
-          {% else %}
-          <p class="external-info">CitySec has no real logo yet</p>
-          {% endif %}
-          <img class="external-links" src="/assets/images/external/citysec_placholder.png" alt="CitySec logo"/>
-        </div>
-      </a>
+    <div class="container externals-container">
+      <div class="external-flex">
+        <a href="https://upcloud.com/signup?utm_source=Hacklabry&utm_medium=banner&utm_campaign=Hacklabry">
+          <div class="external-box">
+            {% if page.lang == 'fi' %}
+            <p class="external-info">UpCloud tukee toimintaamme</p>
+            {% else %}
+            <p class="external-info">Supported by UpCloud</p>
+            {% endif %}
+            <img class="external-links" src="/assets/images/external/uplcoud_logo.jpg" alt="UpCloud logo"/>
+          </div>
+        </a>
+      </div>
+      <div class="external-flex">
+        <a href="https://citysec.fi/">
+          <div class="external-box">
+            {% if page.lang == 'fi' %}
+            <p class="external-info">CitySec-yhteisö</p>
+            {% else %}
+            <p class="external-info">CitySec community</p>
+            {% endif %}
+            <img class="external-links" src="/assets/images/external/citysec.png" alt="CitySec logo"/>
+          </div>
+        </a>
+      </div>
+      <div class="external-flex">
+        <a href="https://coldnorth.org/">
+          <div class="external-box">
+            {% if page.lang == 'fi' %}
+            <p class="external-info">Pohjoismainen hackerspace-yhteistyö</p>
+            {% else %}
+            <p class="external-info">Nordic hackerspace co-operation</p>
+            {% endif %}
+            <img class="external-links" src="/assets/images/external/coldnorth.png" alt="Cold North logo"/>
+          </div>
+        </a>
+      </div>
     </div>
   </div>
   <div class="footer">
