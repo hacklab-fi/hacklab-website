@@ -15,8 +15,6 @@ Membership in Hacklab ry. is open for all hacklab associations in Finland. Hackl
 
 You can contact us fastest on Matrix-channel <a class="external-links" href="https://matrix.to/#/#general:hacklab.fi">#general:hacklab.fi</a>, also IRC-channel #hacklab.fi at Freenode network delivers.
 
-You can contact us fastest on IRC channel #hacklab.fi in Freenode network.
-
 ## Rules
 
 Purposes of the organisation briefly are:
