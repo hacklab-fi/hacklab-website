@@ -1,8 +1,8 @@
 # status, vaihtoehdot:
 #   active
-#   building
+#   building (suunnitteluasteella, ei sijaintia yms)
+#   restructuring (tilanne epämääräinen)
 #   idea  <- alustavat keskustelut
-
 
 # aktiiviset
 
@@ -21,6 +21,13 @@
   irc: "#helsinki.hacklab.fi"
   irc_network: "Freenode"
   twitter: "HelsinkiHacklab"
+  hacklabfi:
+    member: "yes"
+    join_date: 2020-01-01
+    membercount_date:
+    membercount:
+    last_check_date: 2020-01-10
+    contact:
 
 - kaupunki: Tampere Hacklab
   id: tampere
@@ -37,6 +44,13 @@
   irc: "#trehacklab"
   irc_network: "IRCNet"
   twitter: "trehacklab"
+  hacklabfi:
+    member: "yes"
+    join_date: 2020-01-01
+    membercount_date: 2020-01-09
+    membercount: 492
+    last_check_date: 2020-01-10
+    contact: "hallitus@tampere.hacklab.fi"
 
 - kaupunki: Vaasa Hacklab
   id: vaasa
@@ -53,6 +67,13 @@
   irc: "#VaasaHacklab"
   irc_network: "Freenode"
   twitter: "VaasaHacklab"
+  hacklabfi:
+    member: "yes"
+    join_date: 2020-01-01
+    membercount_date:
+    membercount:
+    last_check_date: 2020-01-10
+    contact: "info@vaasa.hacklab.fi"
 
 - kaupunki: Turku Hacklab
   id: turku
@@ -98,6 +119,13 @@
   irc: "#hacklab.jkl"
   irc_network: "Freenode"
   twitter: "hacklabjkl"
+  hacklabfi:
+    member: "yes"
+    join_date: 2019-05-18
+    membercount_date:
+    membercount:
+    last_check_date: 2020-01-10
+    contact:
 
 - kaupunki: Hacklab Kuopio
   id: kuopio
@@ -170,6 +198,13 @@
   pin: "virrat_pin.png"
   logo: "virrat.png"
   twitter: "VirratHacklab"
+  hacklabfi:
+    member: "yes"
+    join_date: 2019-05-18
+    membercount_date:
+    membercount:
+    last_check_date: 2020-01-10
+    contact:
 
 - kaupunki: Hacklab Lahti
   id: lahti
@@ -184,6 +219,12 @@
   logo: "lahti.png"
   irc: "#lahti.hacklab.fi"
   irc_network: "Freenode"
+  hacklabfi:
+    member: "yes"
+    join_date: 2019-05-18
+    membercount_date:
+    membercount:
+    last_check_date: 2020-01-10
 
 - kaupunki: Kouvola Hacklab
   id: kouvola
@@ -222,15 +263,3 @@
   logo: "seinajoki.png"
   irc: "#SjkHacklab"
   irc_network: "Freenode"
-
-
-# Jos suunnitteluasteella (ei sijaintia), käytä
-#  status: building
-
-# Jos tilanne on epämääräinen tai sijainnit vaihtelevat
-# status: restructuring
-
-
-#- kaupunki: Uusi hacklab kaupunkiisi?
-#  status: idea
-#  txt: "Osallistu keskusteluun #hacklab.fi-kanavalla irkissä (Freenode) ja lähde toteuttamaan uutta hacklabia omalle alueellesi!"
