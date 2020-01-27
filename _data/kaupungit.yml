@@ -70,8 +70,8 @@
   hacklabfi:
     member: "yes"
     join_date: 2020-01-01
-    membercount_date:
-    membercount:
+    membercount_date: 2020-01-01
+    membercount: 118
     last_check_date: 2020-01-10
     contact: "info@vaasa.hacklab.fi"
 
