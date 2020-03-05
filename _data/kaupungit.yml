@@ -77,14 +77,14 @@
 
 - kaupunki: Turku Hacklab
   id: turku
-  lat: 60.4826874
-  lon: 22.3115418
-  osoite: Orikedonkatu 18, toinen kerros
+  lat: 60.46941
+  lon: 22.20384
+  osoite: Lukkosepänkatu 7, toinen kerros (TUA Areenan ja RTK-Palvelun takana)
   url: https://turku.hacklab.fi/
   rss_url: https://turku.hacklab.fi/feed/
   osm_node: 3519065415
   status: active
-  txt: "Turun Hacklab on perustettu 2011 ja työtilat sijaitsevat Orikedolla. Avoimet ovet joka tiistai klo 18 alkaen."
+  txt: "Turun Hacklab on perustettu 2011 ja työtilat sijaitsevat Pläkkikaupungissa, Lukkocenterissä. Avoimet ovet joka tiistai klo 18 alkaen."
   pin: "turku_pin.png"
   logo: "turku.png"
   irc: "#turku.hacklab.fi"
