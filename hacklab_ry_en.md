@@ -13,7 +13,7 @@ History of hacklab.fi cooperation network starts from 2012, and the umbrella org
 
 Membership in Hacklab ry. is open for all hacklab associations in Finland. Hacklab.fi network continues its informal operations next to the organisation, so for example newly founded groups can join in the cooperation regardless of membership.
 
-You can contact us fastest on Matrix-channel <a class="external-links" href="https://matrix.to/#/#general:hacklab.fi">#general:hacklab.fi</a>, also IRC-channel #hacklab.fi at Freenode network delivers.
+You can contact us fastest on Matrix-channel <a class="external-links" href="https://matrix.to/#/#general:hacklab.fi">#general:hacklab.fi</a>, also IRC-channel #hacklab.fi at Freenode network delivers. Or you can drop us an email <a class="external-links" href="mailto:hallitus@hacklab.fi">hallitus@hacklab.fi</a>
 
 ## Rules
 
@@ -27,5 +27,4 @@ Purposes of the organisation briefly are:
  - keep track of hacklab activity in Finland and internationally
  - be in charge of shared funds and resources
 
-[Complete official rules of the organisation only available in Finnish](/saannot.html) 
-
+[Complete official rules of the organisation only available in Finnish](/saannot.html)
