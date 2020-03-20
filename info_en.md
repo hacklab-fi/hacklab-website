@@ -2,7 +2,7 @@
 layout: default_page
 infotxt: y
 cities: n
-lang: fi
+lang: en
 title: "Hacklab. What is that?"
 ref: default
 ---
