@@ -5,5 +5,8 @@ permalink: .well-known/matrix/client
 {
     "m.homeserver": {
         "base_url": "https://matrix.hacklab.fi"
-    }
+    },
+    "im.vector.riot.jitsi": {
+         "preferredDomain": "jitsi.hacklab.fi"
+  }
 }
