@@ -123,7 +123,7 @@
   officialname: Tarlab Oulu ry
   ytunnus: 3071183-1
   regno: 207.088
-  registeredin: Turku
+  registeredin: Oulu
   type: Yhdistys
   registeredon: 2011-12-15
   url: http://oulu.hacklab.fi/
@@ -353,23 +353,3 @@
   logo: "seinajoki.png"
   irc: "#SjkHacklab"
   irc_network: "Freenode"
-
-- kaupunki: Kajaani Hacklab
-  id: kajaani
-  lat:
-  lon:
-  osoite:
-  officialname: Hacklab Kajaani ry
-  ytunnus: 3075231-8
-  regno: 212.537
-  registeredin: Kajaani
-  type: Yhdistys
-  registeredon: 2014-04-29
-  url:
-  rss_url:
-  status: active
-  txt:
-  pin:
-  logo:
-  irc:
-  irc_network:
