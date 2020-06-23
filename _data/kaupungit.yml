@@ -11,11 +11,16 @@
   lat: 60.22199
   lon: 24.85194
   osoite: Takkatie 18, takaovi
+  officialname: Helsinki Hacklab ry
+  ytunnus: 2346395-6
+  registeredin: Helsinki
+  type: Yhdistys
+  registeredon: 2010-04-22
   url: https://helsinki.hacklab.fi/
   rss_url: https://helsinki.hacklab.fi/feed/
   osm_node: 788550155
   status: active
-  txt: "Helsinki Hacklab, Suomen ensimmäinen hackerpace, perustettu 2010. Työtilat Pitskussa lyhyen kävelymatkan päässä joko Mäkkylän tai Pitäjänmäen asemilta. Avoimet ovet aina tiistaisin klo 17 alkaen."
+  txt: "Helsinki Hacklab, Suomen ensimmäinen hackerspace, perustettu 2010. Työtilat Pitskussa lyhyen kävelymatkan päässä joko Mäkkylän tai Pitäjänmäen asemilta. Avoimet ovet aina tiistaisin klo 17 alkaen."
   pin: "helsinki_pin.png"
   logo: "helsinki.png"
   irc: "#helsinki.hacklab.fi"
@@ -34,6 +39,11 @@
   lat: 61.48137
   lon: 23.78915
   osoite: Ahlmanintie 56
+  officialname: Tampere Hacklab ry
+  ytunnus: 2419748-5
+  registeredin: Tampere
+  type: Yhdistys
+  registeredon: 2010-06-28
   url: https://tampere.hacklab.fi/
   rss_url: https://tampere.hacklab.fi/feeds/rss/
   osm_node: 3752512170
@@ -57,6 +67,11 @@
   lat: 63.087808929
   lon: 21.613177598
   osoite: Läntinen Kasarmintori 8-10, Rakennus 37, Stalli
+  officialname: Vaasa Hacklab ry
+  ytunnus: 2644217-3
+  registeredin: Vaasa
+  type: Yhdistys
+  registeredon: 2013-05-02
   url: https://vaasa.hacklab.fi/
   rss_url: https://vaasa.hacklab.fi/feed/
   osm_node: 4160997147
@@ -80,6 +95,11 @@
   lat: 60.46941
   lon: 22.20384
   osoite: Lukkosepänkatu 7, toinen kerros (TUA Areenan ja RTK-Palvelun takana)
+  officialname: Hacklab Turku ry
+  ytunnus: 2437705-6
+  registeredin: Turku
+  type: Yhdistys
+  registeredon: 2011-12-15
   url: https://turku.hacklab.fi/
   rss_url: https://turku.hacklab.fi/feed/
   osm_node: 3519065415
@@ -96,6 +116,11 @@
   lat: 65.02556
   lon: 25.48531
   osoite: Valtatie 67, takaovi
+  officialname: Tarlab Oulu ry
+  ytunnus: 3071183-1
+  registeredin: Oulu
+  type: Yhdistys
+  registeredon: 2011-12-15
   url: http://oulu.hacklab.fi/
   osm_node: 4161097329
   status: active
@@ -109,6 +134,11 @@
   lat: 62.2500344
   lon: 25.7067840
   osoite: Emännäntie 10
+  officialname: Hacklab Jyväskylä ry
+  ytunnus: 3070724-2
+  registeredin: Jyväskylä
+  type: Yhdistys
+  registeredon: 2011-09-22
   url: https://jyvaskyla.hacklab.fi/
   rss_url: https://jyvaskyla.hacklab.fi/en/feed/
   osm_node: 3055729214
@@ -132,6 +162,11 @@
   lat: 62.89105
   lon: 27.67309
   osoite: Kauppakatu 44 (Kulttuuriareena 44)
+  officialname: Kuopio Hacklab ry
+  ytunnus: 3077591-5
+  registeredin: Kuopio
+  type: Yhdistys
+  registeredon: 2015-09-15
   url: http://kuopio.hacklab.fi/
   rss_url: http://kuopio.hacklab.fi/blog/feed/
   status: restructuring
@@ -148,6 +183,11 @@
   lat: 62.60000
   lon: 29.78359
   osoite: Sortavalankatu 2, ovi 4B
+  officialname: Tech Club Joensuu ry
+  ytunnus: 2569971-9
+  registeredin: Joensuu
+  type: Yhdistys
+  registeredon: 2012-05-03
   url: http://tcj.fi/
   rss_url: http://tcj.fi/feed/
   osm_node: 4161097330
@@ -163,6 +203,11 @@
   lat: 61.6933473
   lon: 27.2625445
   osoite: Pietarinkatu 23 (sisäänkäynti Yrjönkadun puolelta)
+  officialname: Hacklab Mikkeli ry
+  ytunnus: 2678219-4
+  registeredin: Mikkeli
+  type: Yhdistys
+  registeredon: 2015-04-14
   url: https://www.hacklabmikkeli.fi/
   osm_node: 3882978198
   status: active
@@ -176,6 +221,11 @@
   lat: 61.4877445
   lon: 21.7902814
   osoite: Otavankatu 3
+  officialname:
+  ytunnus:
+  registeredin:
+  type: Ei rekisteröity
+  registeredon:
   url: http://pori.hacklab.fi/
   rss_url: http://pori.hacklab.fi/wordpress/?feed=rss2
   status: restructuring
@@ -191,6 +241,11 @@
   lat: 62.23843
   lon: 23.76390
   osoite: Sipiläntie 1, pohjakerros
+  officialname: Virrat Hacklab ry
+  ytunnus: 2848276-9
+  registeredin: Virrat
+  type: Virrat
+  registeredon: 2017-08-03
   url: https://virrat.hacklab.fi/
   status: active
   osm_node: 6898283992
@@ -211,6 +266,11 @@
   lat: 60.9845420
   lon: 25.6581536
   osoite: Kirkkokatu 11
+  officialname: Hacklab Lahti ry
+  ytunnus: 3081105-8
+  registeredin: Lahti
+  type: Yhdistys
+  registeredon: 2017-09-25
   url: https://lahti.hacklab.fi/
   rss_url: https://lahti.hacklab.fi/feed/
   status: active
@@ -231,6 +291,11 @@
   lat: 60.87289
   lon: 26.69156
   osoite: Savonkatu 23, kolmas kerros
+  officialname: Kouvola Hacklab ry
+  ytunnus: 3080379-5
+  registeredin: Kouvola
+  type: Yhdistys
+  registeredon: 2017-04-13
   url: https://hacklabkouvola.fi/
   rss_url: https://hacklabkouvola.fi/feed/
   status: active
@@ -243,6 +308,11 @@
   lat: 61.47485
   lon: 23.50737
   osoite: Pirkkalaistie 1
+  officialname: Uusi Nokia ry
+  ytunnus: 3080913-4
+  registeredin: Nokia
+  type: Yhdistys
+  registeredon: 2017-08-08
   url: https://uusinokia.fi/
   rss_url: https://uusinokia.fi/feed/
   status: active
@@ -255,6 +325,11 @@
   lat: 62.7880
   lon: 22.8328
   osoite: Kauppakatu 25
+  officialname: Hacklab Seinäjoki ry
+  ytunnus: 3079612-6
+  registeredin: Seinäjoki
+  type: Yhdistys
+  registeredon: 2016-11-22
   url: http://seinajoki.hacklab.fi/
   rss_url: http://seinajoki.hacklab.fi/feed.xml
   status: active
