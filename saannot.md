@@ -202,7 +202,7 @@ Liittokokouksessa käsitellään seuraavat asiat:
 
 Liiton asioita hoitaa hallitus, johon kuuluu liittokokouksessa valitut
 puheenjohtaja ja 2–9 muuta jäsentä. Hallituksen toimikausi on
-vuosikokousten välinen aika. Hallitus valitsee keskuudestaan
+kalenterivuosi. Hallitus valitsee keskuudestaan
 varapuheenjohtajan sekä ottaa keskuudestaan tai ulkopuoleltaan
 sihteerin, rahastonhoitajan ja muut tarvittavat toimihenkilöt.
 
