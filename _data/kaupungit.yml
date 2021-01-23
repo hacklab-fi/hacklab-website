@@ -80,14 +80,14 @@
   pin: "vaasa_pin.png"
   logo: "vaasa.png"
   irc: "#VaasaHacklab"
-  irc_network: "Freenode"
+  irc_network: "IRCNet"
   twitter: "VaasaHacklab"
   hacklabfi:
     member: "yes"
     join_date: 2020-01-01
-    membercount_date: 2020-01-01
-    membercount: 118
-    last_check_date: 2020-01-10
+    membercount_date: 2020-12-31
+    membercount: 115
+    last_check_date: 2021-01-23
     contact: "info@vaasa.hacklab.fi"
 
 - kaupunki: Turku Hacklab
@@ -127,7 +127,17 @@
   txt: "Suomen pohjoisin hacklab."
   pin: "oulu_pin.png"
   logo: "oulu.png"
+  matrix: "#oulu:hacklab.fi"
+  irc: "#Tarlab"
+  irc_network: "IRCNet"
   twitter: "TarlabOulu"
+  hacklabfi:
+    member: "yes"
+    join_date: 2020-03-25
+    membercount_date:
+    membercount:
+    last_check_date:
+    contact: "hallitus@tarlab.fi"
 
 - kaupunki: Hacklab Jyväskylä
   id: jyvaskyla
