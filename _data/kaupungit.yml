@@ -279,13 +279,13 @@
   pin: "lahti_pin.png"
   logo: "lahti.png"
   irc: "#lahti.hacklab.fi"
-  irc_network: "Freenode"
+  irc_network: "IRCnet"
   hacklabfi:
     member: "yes"
     join_date: 2019-05-18
-    membercount_date:
-    membercount:
-    last_check_date: 2020-01-10
+    membercount_date: 2020-12-31
+    membercount: 27
+    last_check_date: 2021-01-23
 
 - kaupunki: Kouvola Hacklab
   id: kouvola
