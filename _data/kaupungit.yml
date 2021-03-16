@@ -29,10 +29,10 @@
   hacklabfi:
     member: "yes"
     join_date: 2020-01-01
-    membercount_date:
-    membercount:
-    last_check_date: 2020-01-10
-    contact:
+    membercount_date: 2021-02-08
+    membercount: 499
+    last_check_date: 2021-03-16
+    contact: "hallitus@helsinki.hacklab.fi"
 
 - kaupunki: Tampere Hacklab
   id: tampere
