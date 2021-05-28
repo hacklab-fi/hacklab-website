@@ -153,7 +153,7 @@
   rss_url: https://jyvaskyla.hacklab.fi/en/feed/
   osm_node: 3055729214
   status: active
-  txt: "Jyväskylän hacklab toimii Kortepohjassa osoitteessa Emännäntie 10, O-siivessä rakennuksen katutasossa. Avoimet ovet tiistaisin ja lauantaisin. Elektroniikkaa, puutöitä ja ryhmätyöskentelyä."
+  txt: "Jyväskylän Hacklab toimii Kortepohjassa osoitteessa Emännäntie 10 O, rakennuksen katutasossa. Tiloissa voi puuhastella elektroniikkaa, puutöitä ja muita ryhmätöitä. Kerhoiltoihin on avoimet ovet tiistaisin ja lauantaisin."
   pin: "jyvaskyla_pin.png"
   logo: "jyvaskyla.png"
   matrix: "#jkl:hacklab.fi"
@@ -163,10 +163,10 @@
   hacklabfi:
     member: "yes"
     join_date: 2019-05-18
-    membercount_date:
-    membercount:
+    membercount_date: 2020-12-31
+    membercount: 80
     last_check_date: 2020-01-10
-    contact:
+    contact: "hallitus@jkl.hacklab.fi"
 
 - kaupunki: Hacklab Kuopio
   id: kuopio
