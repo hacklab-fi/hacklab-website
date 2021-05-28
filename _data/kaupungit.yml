@@ -110,6 +110,13 @@
   irc: "#turku.hacklab.fi"
   irc_network: "Freenode"
   twitter: "turkuhacklab"
+  hacklabfi:
+    member: "yes"
+    join_date: 2021-05-28
+    membercount_date:
+    membercount:
+    last_check_date:
+    contact: "hacklabturku@gmail.com"
 
 - kaupunki: Oulu Tarlab
   id: oulu
