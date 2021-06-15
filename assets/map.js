@@ -33,7 +33,7 @@ var icon_{{ forloop.index }} = L.icon({
 {% endif %}
 {% if k.lat and k.lon %}
 var marker_{{ forloop.index }} = L.marker([{{ k.lat }}, {{ k.lon }}] {% if k.pin %}, {icon: icon_{{ forloop.index }} } {% endif %} )
-    .bindPopup("<a href='{{k.url}}''>{{k.kaupunki}}</a><br/>{{ k.txt }}")
+    .bindPopup('<a target="_blank" rel="noopener noreferrer" href="{{k.url}}">{{k.kaupunki}}</a><br/>{{ k.txt }}')
     .addTo(mymap);
 {% endif %}
 {% endfor %}
