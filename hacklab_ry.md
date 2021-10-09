@@ -7,6 +7,8 @@ lang: fi
 
 Hacklab ry. on hacklab.fi-yhteistyöverkoston vuonna 2019 perustama kattojärjestö, joka toimii jäsenyhdistystensä eduksi koko Suomen alueella.
 
+Yhdistyksen [rekisteritiedot](https://yhdistysrekisteri.prh.fi/basicinformation?userLang=fi&businessId=3084371-1){:target="_blank"}
+
 ## Yhteistyö
 
 Yhteistyöhistoriaa hacklab.fi-verkostolla on ollut vuodesta 2012 alkaen, ja kattojärjestö jatkaa tätä mahdollistamalla entistä paremmin yhteisiä resursseja ja vastun jakamista toiminnan kehittämisessä. Kattojärjestössä toimii hallitus, joka vastaa budjetoinnista, kokousten kutsumisesta ja muista sääntömääräisistä tehtävistä.
@@ -37,3 +39,7 @@ Esimerkiksi
 > Yhdistyksen/hallituksen kokous kannatti [äänestyksessä] Hacklab ry.:n varsinaisen jäsenyyden hakemista (y-tunnus 3084371-1) sekä liiton sääntöjen ja tarkoituksen hyväksymistä.
 
 Mikäli yhdistyksen säännöt tai yhdistyksen kokouksen muu päätös ei toisin määrää, liittymispäätöksen voi tehdä yhdistyksen hallitus. Liiton suositus on tehdä päätös yhdistyksen kokouksessa. Jäsenyyden hakemisesta on syytä mainita kokouksen kutsussa ja tarjota linkki [liiton sääntöihin](/saannot.html), jotta osallistujilla on ollut riittävästi aikaa tutustua niihin ennen päätöstä.
+
+## Tilinumero
+
+IBAN-tilinumeromme on FI45 5670 0820 3659 12. Otamme vastaan lahjoituksia. Mikäli teet lahjoituksen, ilmoitathan siitä hallitukselle.
