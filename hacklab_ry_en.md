@@ -7,6 +7,9 @@ lang: en
 
 Hacklab ry. *(registered association)* is an umbrella ogranisation founded by hacklab.fi cooperation network in 2019, which acts for benefit of its member organisations all across Finland.
 
+Association [register information](https://yhdistysrekisteri.prh.fi/basicinformation?userLang=en&businessId=3084371-1){:target="_blank"}
+
+
 ## Cooperation
 
 History of hacklab.fi cooperation network starts from 2012, and the umbrella organisation continues this by enabling better common resources and sharing responsibility for developing operations. The organisation has a commitee which is in charge of the budget, calling for meetings and other duties mentioned in the rules.
@@ -28,3 +31,7 @@ Purposes of the organisation briefly are:
  - be in charge of shared funds and resources
 
 [Complete official rules of the organisation only available in Finnish](/saannot.html)
+
+## Bank account
+
+Our IBAN account number is `FI45 5670 0820 3659 12`. We accept donations please use reference number `RF43 3800 1`. If you want, you can tell [the board](mailto:hallitus@tampere.hacklab.fi){:target="_blank"} about your donation.
