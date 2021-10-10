@@ -42,4 +42,4 @@ Mikäli yhdistyksen säännöt tai yhdistyksen kokouksen muu päätös ei toisin
 
 ## Tilinumero
 
-IBAN-tilinumeromme on FI45 5670 0820 3659 12. Otamme vastaan lahjoituksia. Mikäli teet lahjoituksen, ilmoitathan siitä hallitukselle.
+IBAN-tilinumeromme on `FI45 5670 0820 3659 12`, otamme vastaan lahjoituksia, lahjoituksien viitenumero `RF43 3800 1`. Halutessasi voit viestittää lahjoituksestasi [hallitukselle](mailto:hallitus@tampere.hacklab.fi){:target="_blank"}
