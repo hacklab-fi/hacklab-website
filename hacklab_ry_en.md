@@ -34,4 +34,4 @@ Purposes of the organisation briefly are:
 
 ## Bank account
 
-Our IBAN account number is `FI45 5670 0820 3659 12`. We accept donations please use reference number `RF43 3800 1`. If you want, you can tell [the board](mailto:hallitus@tampere.hacklab.fi){:target="_blank"} about your donation.
+Our IBAN account number is `FI45 5670 0820 3659 12`. We accept donations please use reference number `RF43 3800 1`. If you want, you can tell [the board](mailto:hallitus@hacklab.fi){:target="_blank"} about your donation.
