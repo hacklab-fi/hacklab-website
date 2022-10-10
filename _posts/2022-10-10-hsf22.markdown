@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Hacklab Summit Finland 2022"
+ref:    hsf22
+lang:   fi
+date:   2022-10-10 00:00:00 +0300
+tags:   HSF Tampere tapahtumat uutiset
+image:  201901_Tampere.jpg
+translation_en: |
+  We are again gathering together with Hacklab organisations in Tampere in October 2022. HSF is an event for all hacklabs and every hacklab member, where we spend time with each other, visit places, listen to presentations and make plans for co-operation. Tampere Hacklab organises the event in their workspace. The traditional annual meeting first started in 2012. Event page: https://tampere.hacklab.fi/pages/hacklab-summit-finland-2022/
+translation_title_en: "Hacklab Summit Finland 2022"
+---
+Kokoonnumme taas Suomen Hacklab-yhdistysten kesken Tampereelle lokakuussa 2022. HSF on kaikkien hacklabien ja hacklabilaisten yhteinen tapaaminen ja ideointiviikonloppu, johon kuuluu yhteistä ajanviettoa, toimintaa, vierailuja, esitelmiä sekä uusia avauksia hacklabien välisestä yhteistyöstä.
+
+Tampere Hacklab järjestää tapahtuman jälleen tututussa paikassa omissa työtiloissaan. Perinteikäs jokavuotinen kokoontuminen järjestettiin ensi kerran jo 2012.
+
+Muista ilmoittautua mukaan: [Tapahtuman omat sivut](https://tampere.hacklab.fi/pages/hacklab-summit-finland-2022/)
