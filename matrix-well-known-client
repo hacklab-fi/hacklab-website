@@ -8,5 +8,8 @@ permalink: .well-known/matrix/client
     },
     "im.vector.riot.jitsi": {
          "preferredDomain": "jitsi.hacklab.fi"
-  }
+    },
+    "org.matrix.msc3575.proxy": {
+         "url": "https://syncv3.matrix.hacklab.fi"
+    }
 }
