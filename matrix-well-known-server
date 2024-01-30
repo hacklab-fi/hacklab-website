@@ -2,4 +2,4 @@
 layout: none
 permalink: .well-known/matrix/server
 ---
-{"m.server": "matrix.hacklab.fi"}
+{"m.server": "matrix.hacklab.fi:443"}

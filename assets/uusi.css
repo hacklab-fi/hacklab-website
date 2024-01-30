@@ -59,9 +59,46 @@ section.main {
 
 .footer .logo {
   	margin: 15px auto 30px auto;
-  	width: 300px;
+  	width: 280px;
   	float: none;
   	display: block;
+}
+
+
+.externals-footer {
+    background: #ddf5f4 url(images/bg4.png);
+
+}
+
+.externals-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.externals-footer .external-box {
+    color: #a8a8a8;
+	min-height: 240px;
+	max-width: 270px;
+	padding: 10px;
+	margin: 15px;
+	background: #FFFFFF;
+	text-align: center;
+	border-radius: 20px;
+}
+
+.externals-footer .external-links {
+	width: 100%;
+	border-radius: 10px;
+}
+
+.externals-footer .external-info {
+}
+
+
+.externals-footer .external-flex {
+	display: flex;
+	flex-direction: column;
+	margin: auto;
 }
 
 /* index page city list */
@@ -131,6 +168,10 @@ section.map .map-container {
 	font-weight: lighter;
 	margin-left: 15px;
 	font-size: 14pt;
+}
+
+.post p a {
+	text-decoration: underline;
 }
 
 /* rss feed */

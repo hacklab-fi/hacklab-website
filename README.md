@@ -2,7 +2,19 @@
 
 hacklab.fi website, landing page for hackerspaces in Finland
 
-## Running the website locally
+# local development
 
-    sudo apt install jekyll
-    sudo gem install bundler
+* sudo apt install jekyll
+* sudo gem install bundler
+* clone the repo
+* install ruby and devtools / build-essential
+* install gems
+```
+bundle install
+```
+* run jekyll
+```
+bundle exec jekyll serve
+```
+
+Read more from: https://help.github.com/en/github/working-with-github-pages/testing-your-github-pages-site-locally-with-jekyll
