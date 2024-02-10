@@ -356,3 +356,22 @@
   logo: "seinajoki.png"
   irc: "#SjkHacklab"
   irc_network: "Freenode"
+
+- kaupunki: Akaa Hacklab
+  id: akaa
+  lat: 61.2059977
+  lon: 23.7624206
+  osoite: Koivistontie 3
+  officialname: AKAA HACKLAB RY
+  ytunnus: 3425921-3
+  registeredin: Akaa
+  type: Yhdistys
+  registeredon: 2024-02-07
+  url: https://akaa.hacklab.fi/
+  rss_url:
+  status: building
+  txt: "Rakenteilla"
+  pin: "akaa_pin.png"
+  logo: "akaa.png"
+  irc: ""
+  irc_network: ""
