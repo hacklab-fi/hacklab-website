@@ -359,12 +359,12 @@
 
 - kaupunki: Akaa Hacklab
   id: akaa
-  lat: 62.7880
-  lon: 22.8328
-  osoite: Kauppakatu 25
+  lat: 61.2059977
+  lon: 23.7624206
+  osoite: Koivistontie 3
   officialname: AKAA HACKLAB RY
   ytunnus: 3425921-3
-  registeredin: akaa
+  registeredin: Akaa
   type: Yhdistys
   registeredon: 2024-02-07
   url: https://akaa.hacklab.fi/
