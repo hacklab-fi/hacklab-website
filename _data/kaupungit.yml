@@ -375,3 +375,22 @@
   logo: "akaa.png"
   irc: ""
   irc_network: ""
+
+- kaupunki: Hacklab Kuopio
+  id: kuopio
+  lat: 62.8910889
+  lon: 27.6704609
+  osoite: Kauppakatu 44 (Kulttuuriareena 44, toinen kerros, soita sivuoven ovikelloa)
+  officialname: Kuopio Hacklab ry
+  ytunnus: 3077591-5
+  registeredin: Kuopio
+  type: Yhdistys
+  registeredon: 2015-09-15
+  url: https://kuopio.hacklab.fi/
+  rss_url:
+  status: active
+  txt: "Yhteisöllinen työtila Kuopiossa. Avoimet ovet sunnuntaisin / torstaisin. Tule harrastamaan teknologian, tieteen, taiteen ja muiden tee-se-itse -juttujen kanssa."
+  pin: "kuopio_pin.png"
+  logo: "kuopio.png"
+  irc: ""
+  irc_network: ""
