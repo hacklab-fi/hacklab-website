@@ -10,7 +10,7 @@ translation_en: |
   We are again gathering together with Hacklab organisations in Tampere in April 2024. HSF is an event for all hacklabs and every hacklab member, where we spend time with each other, visit places, listen to presentations and make plans for co-operation. Tampere Hacklab organises the event in their workspace. The traditional annual meeting first started in 2012. Event page: https://tampere.hacklab.fi/pages/hsf24/
 translation_title_en: "Hacklab Summit Finland 2024"
 ---
-Kokoonnumme taas Suomen Hacklab-yhdistysten kesken Tampereelle lokakuussa 2024. HSF on kaikkien hacklabien ja hacklabilaisten yhteinen tapaaminen ja ideointiviikonloppu, johon kuuluu yhteistä ajanviettoa, toimintaa, vierailuja, esitelmiä sekä uusia avauksia hacklabien välisestä yhteistyöstä.
+Kokoonnumme taas Suomen Hacklab-yhdistysten kesken Tampereelle toukokuun 18 päivä. HSF on kaikkien hacklabien ja hacklabilaisten yhteinen tapaaminen ja ideointiviikonloppu, johon kuuluu yhteistä ajanviettoa, toimintaa, vierailuja, esitelmiä sekä uusia avauksia hacklabien välisestä yhteistyöstä.
 
 Tampere Hacklab järjestää tapahtuman jälleen tututussa paikassa omissa työtiloissaan. Perinteikäs jokavuotinen kokoontuminen järjestettiin ensi kerran jo 2012.
 
