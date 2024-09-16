@@ -9,6 +9,9 @@ permalink: .well-known/matrix/client
     "im.vector.riot.jitsi": {
          "preferredDomain": "jitsi.hacklab.fi"
     },
+    "org.matrix.msc3575.proxy": {
+         "url": "https://syncv3.matrix.hacklab.fi"
+    },
     "m.tile_server": {
          "map_style_url": "https://api.maptiler.com/maps/streets/style.json?key=fU3vlMsMn4Jb6dnEIFsx"
     }
