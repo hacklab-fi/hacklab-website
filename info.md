@@ -26,4 +26,4 @@ Hacklabeilla on Suomessa yhteinen kattojärjestö Hacklab ry., joka huolehtii yh
 
 ## Uuden hacklabin perustaminen
 
-Jos olet kiinnostunut perustamaan uuden hacklabin jonnekin päin Suomea, ota meihin yhteyttä, niin voimme tarjota apuamme aloittamisessa. Toivomme, että voit jakaa kanssamme samoja ajatuksia hacklab-toiminnan luonteesta, joita tälläkin sivulla on kuvattu. Meihin saa aina yhteyden IRC:ssä kanavalla #hacklab.fi (Freenode).
+Jos olet kiinnostunut perustamaan uuden hacklabin jonnekin päin Suomea, ota meihin yhteyttä, niin voimme tarjota apuamme aloittamisessa. Toivomme, että voit jakaa kanssamme samoja ajatuksia hacklab-toiminnan luonteesta, joita tälläkin sivulla on kuvattu.

@@ -24,4 +24,4 @@ Co-op network hacklab.fi is founded by independent and self sustained hackerspac
 
 ## Founding a new hacklab
 
-If you're interested in founding a new hacklab somewhere in Finland, please be in contact with us, so we can offer you our help in starting. We hope, that you can share same thoughts about the idea of hacklab, that is listed in this site. We are always available in IRC on channel #hacklab.fi (Freenode).
+If you're interested in founding a new hacklab somewhere in Finland, please be in contact with us, so we can offer you our help in starting. We hope, that you can share same thoughts about the idea of hacklab, that is listed in this site.

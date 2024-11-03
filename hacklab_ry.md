@@ -15,7 +15,7 @@ Yhteistyöhistoriaa hacklab.fi-verkostolla on ollut vuodesta 2012 alkaen, ja kat
 
 Kattojärjestön jäseneksi voivat hakea kaikki Suomessa toimivat hacklab-yhdistykset. Hacklab.fi-verkosto toimii yhdistyksen ohessa edelleen epämuodollisesti, joten esimerkiksi uudet aloittelevat yhdistykset pääsevät mukaan yhteistoimintaan jäsenyydestä riippumatta.
 
-Saat meihin yhteyden nopeiten Matrix-kanavalla <a class="external-links" href="https://matrix.to/#/#general:hacklab.fi">#general:hacklab.fi</a>, myös IRC-kanava #hacklab.fi Freenode-verkossa vastaa. Voit myös lähettää sähköpostia <a class="external-links" href="mailto:info@hacklab.fi">info@hacklab.fi</a>
+Saat meihin yhteyden nopeiten Matrix-kanavalla <a class="external-links" href="https://matrix.to/#/#general:hacklab.fi">#general:hacklab.fi</a>, myös IRC-kanava #hacklab.fi IRCnet-verkossa vastaa. Voit myös lähettää sähköpostia <a class="external-links" href="mailto:info@hacklab.fi">info@hacklab.fi</a>
 
 ## Säännöt
 
