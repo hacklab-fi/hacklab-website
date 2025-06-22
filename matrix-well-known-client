@@ -15,7 +15,7 @@ permalink: .well-known/matrix/client
     "org.matrix.msc4143.rtc_foci": [
         {
             "type": "livekit",
-            "livekit_service_url": "livekit.matrix.hacklab.fi"
+            "livekit_service_url": "https://livekit.matrix.hacklab.fi"
         }
     ]
 }
