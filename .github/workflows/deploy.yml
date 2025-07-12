@@ -33,10 +33,12 @@ jobs:
         with:
           ssh-private-key: ${{ secrets.DEPLOY_SSH_KEY }}
 
-      - name: Add remote host to known_hosts
+      - name: Enable SSHFP checking
         run: |
           mkdir -p ~/.ssh
-          echo "trinity.hacklab.fi ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEbuUzPWSkuCC/iAE2KgxnCO22+9MLdTfTGLiVFOC6gm" >> ~/.ssh/known_hosts
+          echo "Host trinity.hacklab.fi
+          VerifyHostKeyDNS yes
+          StrictHostKeyChecking yes" >> ~/.ssh/config
 
       - name: Deploy to server via rsync
         run: |
