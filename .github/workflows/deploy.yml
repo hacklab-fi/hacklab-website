@@ -33,6 +33,11 @@ jobs:
         with:
           ssh-private-key: ${{ secrets.DEPLOY_SSH_KEY }}
 
+      - name: Add remote host to known_hosts
+        run: |
+          mkdir -p ~/.ssh
+          echo "trinity.hacklab.fi ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIEbuUzPWSkuCC/iAE2KgxnCO22+9MLdTfTGLiVFOC6gm" >> ~/.ssh/known_hosts
+
       - name: Deploy to server via rsync
         run: |
           rsync -avz --delete _site/ hackfi@trinity.hacklab.fi:/var/www/hacklab.fi/
