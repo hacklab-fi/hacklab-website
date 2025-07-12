@@ -40,5 +40,5 @@ jobs:
 
       - name: Deploy to server via rsync
         run: |
-          rsync -avz --delete --omit-dir-times _site/ hackfi@trinity.hacklab.fi:/var/www/hacklab.fi/
+          rsync -rltz --delete --omit-dir-times _site/ hackfi@trinity.hacklab.fi:/var/www/hacklab.fi/
 
