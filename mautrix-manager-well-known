@@ -7,9 +7,7 @@ permalink: .well-known/matrix/mautrix
     "https://slack.matrix.hacklab.fi",
     "https://signal.matrix.hacklab.fi",
     "https://gmessages.matrix.hacklab.fi",
-    "https://facebook.matrix.hacklab.fi",
-    "https://messenger.matrix.hacklab.fi",
-    "https://instagram.matrix.hacklab.fi",
+    "https://meta.matrix.hacklab.fi",
     "https://whatsapp.matrix.hacklab.fi"
   ]
 }
