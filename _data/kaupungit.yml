@@ -340,22 +340,22 @@
 
 - kaupunki: Seinäjoki Hacklab
   id: seinajoki
-  lat: 62.7880
-  lon: 22.8328
-  osoite: Kauppakatu 25
+  lat: 62.7909
+  lon: 22.8420
+  osoite: Ruukintie 2
   officialname: Hacklab Seinäjoki ry
   ytunnus: 3079612-6
   registeredin: Seinäjoki
   type: Yhdistys
   registeredon: 2016-11-22
-  url: http://seinajoki.hacklab.fi/
-  rss_url: http://seinajoki.hacklab.fi/feed.xml
-  status: restructuring
-  txt: "Tiloista jouduttu luopumaan."
+  url: https://www.seinajokihacklab.com/
+  rss_url: https://www.seinajokihacklab.com/feed/
+  status: active
+  txt: "Löydät meidät Seinäjoen entisen matkakeskuksen tiloista"
   pin: "seinajoki_pin.png"
   logo: "seinajoki.png"
-  irc: "#SjkHacklab"
-  irc_network: "Freenode"
+  irc: ""
+  irc_network: ""
 
 - kaupunki: Akaa Hacklab
   id: akaa
