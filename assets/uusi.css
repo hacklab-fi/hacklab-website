@@ -101,6 +101,27 @@ section.main {
 	margin: auto;
 }
 
+.external-box {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.external-box .external-info {
+  text-align: center;
+  margin-bottom: 0.5rem;  /* optional spacing */
+}
+
+.external-box img.external-links {
+  margin-top: auto;
+  margin-bottom: auto;
+  align-self: center;     /* centers horizontally */
+  max-width: 90%;
+  height: auto;
+  border-radius:0;
+}
+
+
 /* index page city list */
 
 section.cities {
