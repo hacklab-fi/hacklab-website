@@ -4,10 +4,11 @@ permalink: .well-known/matrix/mautrix
 ---
 {
   "fi.mau.bridges": [
+    "https://gmessages.matrix.hacklab.fi",
     "https://slack.matrix.hacklab.fi",
     "https://signal.matrix.hacklab.fi",
-    "https://gmessages.matrix.hacklab.fi",
     "https://meta.matrix.hacklab.fi",
+    "https://telegram.matrix.hacklab.fi",
     "https://whatsapp.matrix.hacklab.fi",
     "https://irc.matrix.hacklab.fi"
   ]
