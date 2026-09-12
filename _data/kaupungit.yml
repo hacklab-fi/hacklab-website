@@ -175,27 +175,6 @@
     last_check_date: 2020-01-10
     contact: "hallitus@jkl.hacklab.fi"
 
-- kaupunki: Hacklab Kuopio
-  id: kuopio
-  lat: 62.89105
-  lon: 27.67309
-  osoite: Kauppakatu 44 (Kulttuuriareena 44)
-  officialname: Kuopio Hacklab ry
-  ytunnus: 3077591-5
-  registeredin: Kuopio
-  type: Yhdistys
-  registeredon: 2015-09-15
-  url: http://kuopio.hacklab.fi/
-  rss_url: http://kuopio.hacklab.fi/blog/feed/
-  status: closed
-  osm_node: 4380469615
-  txt: "Kuopion Hacklab"
-  pin: "kuopio_pin.png"
-  logo: "kuopio.png"
-  irc: "#kuopio.hacklab.fi"
-  irc_network: "Freenode"
-  twitter: "KuopioHacklab"
-
 - kaupunki: Tech Club Joensuu
   id: joensuu
   lat: 62.60000
@@ -215,6 +194,13 @@
   logo: "joensuu.jpg"
   irc: "#tcj"
   irc_network: "QuakeNet"
+  hacklabfi:
+    member: "no"
+    join_date: ""
+    membercount_date: ""
+    membercount: ""
+    last_check_date: ""
+    contact: ""
 
 - kaupunki: Hacklab Mikkeli
   id: mikkeli
@@ -233,6 +219,13 @@
   pin: "mikkeli_pin.png"
   logo: "mikkeli.png"
   twitter: "HacklabMikkeli"
+  hacklabfi:
+    member: "no"
+    join_date: ""
+    membercount_date: ""
+    membercount: ""
+    last_check_date: ""
+    contact: "hallitus@hacklabmikkeli.fi"
 
 - kaupunki: Hacklab Pori
   id: pori
@@ -253,6 +246,13 @@
   irc: "#pori.hacklab.fi"
   irc_network: "Freenode"
   twitter: "porihacklab"
+  hacklabfi:
+    member: "no"
+    join_date: ""
+    membercount_date: ""
+    membercount: ""
+    last_check_date: ""
+    contact: "yhdistys@tiviasatakunta.fi"
 
 - kaupunki: Virrat Hacklab
   id: virrat
@@ -265,7 +265,7 @@
   type: Virrat
   registeredon: 2017-08-03
   url: https://virrat.hacklab.fi/
-  status: active
+  status: restructuring
   osm_node: 6898283992
   txt: Yhdistys rekisteröity, tilat osoitteessa Sipiläntie 1.
   pin: "virrat_pin.png"
@@ -303,6 +303,7 @@
     membercount_date: 2020-12-31
     membercount: 27
     last_check_date: 2021-01-23
+    contact: "yhteydenotto@lahti.hacklab.fi"
 
 - kaupunki: Kouvola Hacklab
   id: kouvola
@@ -316,10 +317,17 @@
   registeredon: 2017-04-13
   url: https://hacklabkouvola.fi/
   rss_url: https://hacklabkouvola.fi/feed/
-  status: active
+  status: restructuring
   txt: Kaakkois-Suomen ensimmäinen yhteisöllinen työtila
   pin: "kouvola_pin.png"
   logo: "kouvola.png"
+  hacklabfi:
+    member: "no"
+    join_date: ""
+    membercount_date: ""
+    membercount: ""
+    last_check_date: ""
+    contact: ""
 
 - kaupunki: Nokia Hacklab
   id: nokia
@@ -333,10 +341,17 @@
   registeredon: 2017-08-08
   url: https://uusinokia.fi/
   rss_url: https://uusinokia.fi/feed/
-  status: active
+  status: restructuring
   txt: Uusi hacklab perustettu!
   pin: "nokia_pin.png"
   logo: "nokia.png"
+  hacklabfi:
+    member: "no"
+    join_date: ""
+    membercount_date: ""
+    membercount: ""
+    last_check_date: ""
+    contact: ""
 
 - kaupunki: Seinäjoki Hacklab
   id: seinajoki
@@ -356,6 +371,13 @@
   logo: "seinajoki.png"
   irc: ""
   irc_network: ""
+  hacklabfi:
+    member: "no"
+    join_date: ""
+    membercount_date: ""
+    membercount: ""
+    last_check_date: ""
+    contact: "hallitus@seinajokihacklab.com"
 
 - kaupunki: Akaa Hacklab
   id: akaa
@@ -375,12 +397,19 @@
   logo: "akaa.png"
   irc: ""
   irc_network: ""
+  hacklabfi:
+    member: "no"
+    join_date: ""
+    membercount_date: ""
+    membercount: ""
+    last_check_date: ""
+    contact: "akaahacklabry@gmail.com"
 
 - kaupunki: Hacklab Kuopio
   id: kuopio
   lat: 62.8910889
   lon: 27.6704609
-  osoite: Kauppakatu 44 (Kulttuuriareena 44, toinen kerros, soita sivuoven ovikelloa)
+  osoite: Kaivotie 38, 70700 Kuopio
   officialname: Kuopio Hacklab ry
   ytunnus: 3077591-5
   registeredin: Kuopio
@@ -394,3 +423,10 @@
   logo: "kuopio.png"
   irc: ""
   irc_network: ""
+  hacklabfi:
+    member: "no"
+    join_date: ""
+    membercount_date: ""
+    membercount: ""
+    last_check_date: ""
+    contact: "hallitus@halko.fi"
