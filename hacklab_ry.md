@@ -3,11 +3,12 @@ layout: default_page
 title: Hacklab ry.
 lang: fi
 ---
+
 # Hacklab ry.
 
 Hacklab ry. on hacklab.fi-yhteistyöverkoston vuonna 2019 perustama kattojärjestö, joka toimii jäsenyhdistystensä eduksi koko Suomen alueella.
 
-Yhdistyksen [rekisteritiedot](https://yhdistysrekisteri.prh.fi/basicinformation?userLang=fi&businessId=3084371-1){:target="_blank"}
+Yhdistyksen [rekisteritiedot](https://tietopalvelu.ytj.fi/yritys/3084371-1){:target="\_blank"}
 
 ## Yhteistyö
 
@@ -20,14 +21,15 @@ Saat meihin yhteyden nopeiten Matrix-kanavalla <a class="external-links" href="h
 ## Säännöt
 
 Liiton tarkoituksena tiivisti on:
- - toimia valtakunnallisena etujärjestönä
- - tehdä koulutusta ja tiedotusta
- - järjestää tapahtumia ja tilaisuuksia
- - avustaa jäsenjärjestöjä eri tavoin
- - tehdä yhteistyötä kotimaassa ja ulkomailla
- - tehdä markkinointia
- - seurata hacklab-toiminnan tilannetta Suomessa ja kansainvälisesti
- - huolehtia yhteisten varojen ja muiden resurssien käytöstä
+
+- toimia valtakunnallisena etujärjestönä
+- tehdä koulutusta ja tiedotusta
+- järjestää tapahtumia ja tilaisuuksia
+- avustaa jäsenjärjestöjä eri tavoin
+- tehdä yhteistyötä kotimaassa ja ulkomailla
+- tehdä markkinointia
+- seurata hacklab-toiminnan tilannetta Suomessa ja kansainvälisesti
+- huolehtia yhteisten varojen ja muiden resurssien käytöstä
 
 Lue myös: [yhdistyksen vahvistetut säännöt kokonaisuudessaan](/saannot.html)
 
@@ -36,10 +38,11 @@ Lue myös: [yhdistyksen vahvistetut säännöt kokonaisuudessaan](/saannot.html)
 Kattojärjestöön liittyminen tapahtuu lähettämällä liiton hallitukselle allekirjoitettu kopio yhdistyksen tai sen hallituksen kokouksen pöytäkirjasta tai pöytäkirjaotteesta, jossa on tehty päätös jäsenyyden hakemisesta ja sääntöjen hyväksymisestä.
 
 Esimerkiksi
+
 > Yhdistyksen/hallituksen kokous kannatti [äänestyksessä] Hacklab ry.:n varsinaisen jäsenyyden hakemista (y-tunnus 3084371-1) sekä liiton sääntöjen ja tarkoituksen hyväksymistä.
 
 Mikäli yhdistyksen säännöt tai yhdistyksen kokouksen muu päätös ei toisin määrää, liittymispäätöksen voi tehdä yhdistyksen hallitus. Liiton suositus on tehdä päätös yhdistyksen kokouksessa. Jäsenyyden hakemisesta on syytä mainita kokouksen kutsussa ja tarjota linkki [liiton sääntöihin](/saannot.html), jotta osallistujilla on ollut riittävästi aikaa tutustua niihin ennen päätöstä.
 
 ## Tilinumero
 
-Tilinumero on tulossa.
+IBAN-tilinumeromme on `FI19 7997 7995 0019 84`, otamme vastaan lahjoituksia, lahjoituksien viitenumero `RF43 3800 1`. Halutessasi voit viestittää lahjoituksestasi [hallitukselle](mailto:hallitus@hacklab.fi){:target="\_blank"}
