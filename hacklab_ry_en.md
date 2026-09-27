@@ -3,12 +3,12 @@ layout: default_page
 title: Hacklab ry.
 lang: en
 ---
+
 # Hacklab ry.
 
-Hacklab ry. *(registered association)* is an umbrella ogranisation founded by hacklab.fi cooperation network in 2019, which acts for benefit of its member organisations all across Finland.
+Hacklab ry. _(registered association)_ is an umbrella ogranisation founded by hacklab.fi cooperation network in 2019, which acts for benefit of its member organisations all across Finland.
 
-Association [register information](https://yhdistysrekisteri.prh.fi/basicinformation?userLang=en&businessId=3084371-1){:target="_blank"}
-
+Association [register information](https://tietopalvelu.ytj.fi/yritys/3084371-1){:target="\_blank"}
 
 ## Cooperation
 
@@ -21,17 +21,18 @@ You can contact us fastest on Matrix-channel <a class="external-links" href="htt
 ## Rules
 
 Purposes of the organisation briefly are:
- - act as a national interest group
- - arrange education and informing
- - arrange happenings and meetings
- - assist member groups in different ways
- - cooperate with other groups on national and international level
- - do marketing
- - keep track of hacklab activity in Finland and internationally
- - be in charge of shared funds and resources
+
+- act as a national interest group
+- arrange education and informing
+- arrange happenings and meetings
+- assist member groups in different ways
+- cooperate with other groups on national and international level
+- do marketing
+- keep track of hacklab activity in Finland and internationally
+- be in charge of shared funds and resources
 
 [Complete official rules of the organisation only available in Finnish](/saannot.html)
 
 ## Bank account
 
-Our IBAN account number is `FI45 5670 0820 3659 12`. We accept donations please use reference number `RF43 3800 1`. If you want, you can tell [the board](mailto:hallitus@hacklab.fi){:target="_blank"} about your donation.
+Our IBAN account number is `FI19 7997 7995 0019 84`. We accept donations please use reference number `RF43 3800 1`. If you want, you can tell [the board](mailto:hallitus@hacklab.fi){:target="\_blank"} about your donation.
